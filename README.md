@@ -10,7 +10,7 @@
 - SCSS 原始檔位於 `scss/`；請編輯 `scss/home.scss`、`scss/globals.scss` 與 `scss/icons.scss`。
 - 品牌與介面顏色集中在 `scss/_variables.scss`，各樣式檔不直接填寫色碼。
 - `css/` 是瀏覽器使用的編譯結果，請勿直接編輯。網站不需要 Node.js、npm 或 `node_modules`。
-- 專案已提供 `.vscode/settings.json`。使用 VS Code 的 Live Sass Compiler 時，儲存 `scss/*.scss` 會直接輸出到 `css/`，並且不產生 source map。
+- 專案已提供 `.vscode/settings.json`。使用 VS Code 的 Live Sass Compiler 時，儲存 `scss/*.scss` 會直接輸出到 `css/`，並同步產生對應的 `.css.map` source map。
 - 本站不使用 Tailwind。首頁區塊 class 統一使用 `site-` 前綴。
 - Hero 的字級、排列與動畫位於 `scss/home.scss`；Lucide 圖示由 `scss/icons.scss` 管理。
 - 互動：`js/site.js`；Hero 說明資料：`js/data.js`。

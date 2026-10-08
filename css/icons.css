@@ -1,7 +1,8 @@
 /* Lucide SVGs use inherited colors; the Hero chevrons retain the brand gradient. */
 .lucide {
   display: inline-block;
-  flex-shrink: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
   width: 1.1em;
   height: 1.1em;
   fill: none;
@@ -25,13 +26,19 @@
 }
 
 .lh-detail > button {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-width: 32px;
   min-height: 32px;
 }
 .lh-detail > button .lucide {
   width: 20px;
   height: 20px;
-}
+}/*# sourceMappingURL=icons.css.map */
