@@ -1,0 +1,49 @@
+// Typography and shared layout
+$font-family-primary: "Poppins";
+$font-family-sans: $font-family-primary, "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", sans-serif;
+$font-path: "../assets/hero-layers/fonts";
+$font-weights: 400, 600, 700;
+$header-height: 76px;
+$header-height-mobile: 68px;
+
+// Lib One color system
+$color-ink: #242824;
+$color-ink-soft: #202020;
+$color-hero-ink: #303832;
+$color-hero-subtitle: #315f4a;
+$color-product-name: #34423a;
+$color-product-subtitle: #68736d;
+$color-muted: #6d726d;
+$color-copy-muted: #626862;
+$color-green: #168f68;
+$color-green-mid: #3ba447;
+$color-green-deep: #0b593e;
+$color-lime: #7dbd2b;
+$color-lime-soft: #a7d779;
+$color-orange: #ff6b4a;
+
+// Surfaces and borders
+$color-white: #fff;
+$color-off-white: #fffffc;
+$color-warm-white: #fafaf6;
+$color-surface: #f7f8f4;
+$color-surface-soft: #f0f6ee;
+$color-border-header: #e4e8e1;
+$color-border-panel: #e1e8df;
+$color-border-soft: #e3e9dd;
+$color-border-journey: #dce3d8;
+$color-border-surface: #edf0e8;
+$color-border-button: #bac8b6;
+
+// Status, footer and supporting tones
+$color-label: #42735b;
+$color-status: #7b817b;
+$color-icon-muted: #9aa29a;
+$color-footer: #171b18;
+$color-footer-line: #3b443d;
+$color-footer-text: #f4f6f1;
+$color-footer-muted: #bcc6bd;
+
+// Shadow and translucent-color bases
+$color-shadow-green: #203727;
+$color-overlay: #1e221e;

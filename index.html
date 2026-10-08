@@ -1,0 +1,1325 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lib One｜智慧圖書館設備旅程</title>
+    <meta
+      name="description"
+      content="Lib One 提供智慧圖書館設備與整合服務，涵蓋出入館、借還書、空間設備服務及館務作業，打造一致且無障礙的圖書館使用體驗。"
+    />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1"
+    />
+    <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <script defer src="js/data.js"></script>
+    <script defer src="js/icons.js"></script>
+    <script defer src="js/site.js"></script>
+    <link rel="stylesheet" href="css/icons.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "#organization",
+            "name": "Lib One",
+            "alternateName": "凌網資訊智慧圖書館品牌",
+            "legalName": "凌網資訊股份有限公司",
+            "email": "service@hyweb.com.tw",
+            "telephone": "+886-3-560-1296",
+            "logo": "assets/brand/lib-one-logo.svg"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "#website",
+            "name": "Lib One 智慧圖書館設備旅程",
+            "description": "涵蓋出入館、借還書、空間設備服務與館務作業的智慧圖書館設備與整合服務。",
+            "inLanguage": "zh-Hant",
+            "publisher": { "@id": "#organization" }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Lib One 首頁">
+        <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
+      </a>
+      <nav class="header-nav" aria-label="場域導覽">
+        <a href="index.html#scene-entry">出入館</a>
+        <a href="index.html#scene-borrow">借還書</a>
+        <a href="index.html#scene-space">空間設備服務</a>
+        <a href="index.html#scene-staff">館務作業</a>
+      </nav>
+      <div class="header-actions">
+        <a class="header-contact" href="mailto:service@hyweb.com.tw"
+          >服務與聯絡
+          <svg
+            class="lucide lucide-arrow-up-right"
+            aria-hidden="true"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M7 7h10v10" />
+            <path d="M7 17 17 7" /></svg
+        ></a>
+        <button
+          class="menu-button"
+          type="button"
+          aria-label="開啟產品選單"
+          aria-expanded="false"
+          aria-controls="site-menu"
+        >
+          <svg
+            class="lucide lucide-menu"
+            aria-hidden="true"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M4 5h16" />
+            <path d="M4 12h16" />
+            <path d="M4 19h16" />
+          </svg>
+        </button>
+      </div>
+    </header>
+    <div class="menu-layer" aria-hidden="true">
+      <button
+        class="menu-scrim"
+        type="button"
+        aria-label="關閉產品選單"
+        tabindex="-1"
+      ></button>
+      <div
+        class="menu-drawer"
+        id="site-menu"
+        role="dialog"
+        aria-modal="true"
+        aria-label="產品與場景選單"
+      >
+        <div class="menu-topline">
+          <p>LIB ONE PRODUCT JOURNEY</p>
+          <button class="menu-close" type="button" aria-label="關閉選單">
+            <svg
+              class="lucide lucide-x"
+              aria-hidden="true"
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </div>
+        <nav class="menu-groups" aria-label="產品分類">
+          <div class="menu-group">
+            <a class="menu-scene-link" href="index.html#scene-entry">
+              <small>01</small>
+              <span>出入館</span>
+            </a>
+            <ul>
+              <li>
+                <a href="access-gate.html">
+                  <span>智慧閘門</span>
+                  <small>Access Gate</small>
+                </a>
+              </li>
+              <li>
+                <a href="smart-checkout-gate.html">
+                  <span>智慧借閱通關系統</span>
+                  <small>Smart Checkout Gate</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <a class="menu-scene-link" href="index.html#scene-borrow">
+              <small>02</small>
+              <span>借還書</span>
+            </a>
+            <ul>
+              <li>
+                <a href="self-service-kiosk.html">
+                  <span>直立式自助借還書機</span>
+                  <small>Self-Service Kiosk</small>
+                </a>
+              </li>
+              <li>
+                <a href="desktop-self-service-kiosk.html">
+                  <span>桌上型自助借還書機</span>
+                  <small>Desktop Self-Service Kiosk</small>
+                </a>
+              </li>
+              <li>
+                <a href="smart-reserved-book-pickup-locker.html">
+                  <span>智慧預約取書櫃</span>
+                  <small>Smart Reserved Book Pickup Locker</small>
+                </a>
+              </li>
+              <li>
+                <a href="hypass-self-service-registration-kiosk.html"><span>HyPass 圖書館智慧辦證服務站</span><small>HyPass Self-Service Registration Kiosk</small></a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <a class="menu-scene-link" href="index.html#scene-space">
+              <small>03</small>
+              <span>空間設備服務</span>
+            </a>
+            <ul>
+              <li>
+                <a href="space-kiosk.html">
+                  <span>直立式空間座位預約機</span>
+                  <small>Space Kiosk</small>
+                </a>
+              </li>
+              <li>
+                <a href="desktop-space-kiosk.html">
+                  <span>桌上型空間座位預約機</span>
+                  <small>Desktop Space Kiosk</small>
+                </a>
+              </li>
+              <li>
+                <a href="display.html">
+                  <span>電子紙／數位資訊顯示設備</span>
+                  <small>Display</small>
+                </a>
+              </li>
+              <li>
+                <a href="hyread-kiosk.html">
+                  <span>HyRead 行動圖書館</span>
+                  <small>HyRead Kiosk</small>
+                </a>
+              </li>
+              <li>
+                <a href="multifunction-device-charging-cabinet.html">
+                  <span>多功能設備充電櫃</span>
+                  <small>Multifunction Device Charging Cabinet</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu-group">
+            <a class="menu-scene-link" href="index.html#scene-staff">
+              <small>04</small>
+              <span>館務作業</span>
+            </a>
+            <ul>
+              <li>
+                <a href="workstation.html">
+                  <span>館員工作站</span>
+                  <small>Workstation</small>
+                </a>
+              </li>
+              <li>
+                <a href="rfid-workstation.html">
+                  <span>RFID工作站</span>
+                  <small>RFID Workstation</small>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="menu-footnote">
+          <span class="status-dot"> </span
+          ><a href="mailto:service@hyweb.com.tw">service@hyweb.com.tw</a>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="lh-hero" aria-labelledby="hero-title">
+        <img
+          class="lh-background"
+          src="assets/hero-layers/backgrounds/library.webp"
+          alt=""
+          aria-hidden="true"
+          style="transform: translateX(-0px)"
+        />
+        <div class="lh-intro">
+          <h1 id="hero-title">
+            <span class="hero-line">ONE LIBRARY, ONE PLATFORM</span
+            ><span class="hero-line hero-line-green">ONE EXPERIENCE</span>
+          </h1>
+          <h2>Lib One 智慧圖書館，串聯服務，升級閱讀體驗</h2>
+        </div>
+        <div class="lh-stage" style="height: 590px">
+          <svg class="lh-flow" viewBox="0 0 1187 590" aria-hidden="true">
+            <defs>
+              <linearGradient id="hero-green">
+                <stop stop-color="#168F68"></stop>
+                <stop offset="1" stop-color="#7DBD2B"></stop>
+              </linearGradient>
+            </defs>
+            <g transform="translate(0 63.74234693877548) scale(1.30625)">
+              <path
+                d="M-60 300 C140 140 300 110 400 200 C460 254 430 330 360 316 C290 302 300 210 400 180 C500 150 620 190 720 240 C840 300 960 320 1040 260 C1100 216 1080 130 1010 140 C940 150 950 240 1050 270 C1180 309 1330 260 1500 170"
+                stroke="url(#hero-green)"
+                stroke-width="16"
+                vector-effect="non-scaling-stroke"
+                fill="none"
+                stroke-linecap="round"
+              ></path>
+              <circle
+                cx="360"
+                cy="316"
+                r="6.124401913875598"
+                fill="#FF6B4A"
+              ></circle>
+              <circle
+                cx="1040"
+                cy="260"
+                r="6.124401913875598"
+                fill="#FF6B4A"
+              ></circle>
+            </g>
+          </svg>
+          <div class="lh-track" style="transform: translateX(-0px)">
+            <article class="lh-card" style="left: 0; width: 593.5px">
+              <div
+                class="lh-label"
+                style="left: 139.0969387755102px; top: 26.66326530612244px"
+              >
+                <div class="lh-category">出入館</div>
+                <p class="lh-product-en">Smart Checkout Gate</p>
+                <h2>智慧借閱通關系統</h2>
+              </div>
+              <div
+                class="lh-composition"
+                style="
+                  transform: translate(
+                      -282.7244897959184px,
+                      45.19387755102041px
+                    )
+                    scale(1.0510204081632653);
+                "
+              >
+                <div class="lh-artwork" style="transform-origin: 269px 427px">
+                  <img
+                    class="lh-layer illustration"
+                    src="assets/hero-layers/entry/product-illustration.png"
+                    style="
+                      left: 70px;
+                      top: 185px;
+                      width: 400px;
+                      z-index: 2;
+                      clip-path: inset(0 0 0 50%);
+                    "
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer illustration"
+                    src="assets/hero-layers/entry/product-illustration.png"
+                    style="
+                      left: 70px;
+                      top: 185px;
+                      width: 400px;
+                      z-index: 9;
+                      clip-path: inset(0 50% 0 0);
+                    "
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer real"
+                    src="assets/hero-layers/entry/product-3d.png"
+                    style="
+                      left: 70px;
+                      top: 185px;
+                      width: 400px;
+                      z-index: 2;
+                      clip-path: inset(0 0 0 50%);
+                    "
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer real"
+                    src="assets/hero-layers/entry/product-3d.png"
+                    style="
+                      left: 70px;
+                      top: 185px;
+                      width: 400px;
+                      z-index: 9;
+                      clip-path: inset(0 50% 0 0);
+                    "
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/entry/person.png"
+                    style="left: 130px; top: 45px; width: 269px; z-index: 7"
+                    alt=""
+                  />
+                  <button
+                    class="lh-hotspot"
+                    type="button"
+                    style="left: 109px"
+                    aria-label="查看智慧借閱通關系統"
+                    aria-expanded="false"
+                    aria-controls="hero-product-detail"
+                  ></button>
+                </div>
+              </div>
+            </article>
+            <article class="lh-card" style="left: 593.5px; width: 593.5px">
+              <div
+                class="lh-label"
+                style="left: 139.0969387755102px; top: 113.5816326530612px"
+              >
+                <div class="lh-category">借還書</div>
+                <p class="lh-product-en">Self-Service Kiosk</p>
+                <h2>直立式自助借還書機</h2>
+              </div>
+              <div
+                class="lh-composition"
+                style="
+                  transform: translate(
+                      -371.01020408163265px,
+                      21.020408163265305px
+                    )
+                    scale(1.0510204081632653);
+                "
+              >
+                <div class="lh-artwork" style="transform-origin: 353px 450px">
+                  <img
+                    class="lh-layer illustration"
+                    src="assets/hero-layers/wheelchair/product-illustration.png"
+                    style="left: 305px; top: 198px; width: 215px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer real"
+                    src="assets/hero-layers/wheelchair/product-3d.png"
+                    style="left: 305px; top: 198px; width: 215px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/wheelchair/person.png"
+                    style="left: 139px; top: 150px; width: 286px; z-index: 7"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/child/book.png"
+                    style="left: 408px; top: 292px; width: 65px; z-index: 6"
+                    alt=""
+                  />
+                  <button
+                    class="lh-hotspot"
+                    type="button"
+                    style="left: 193px"
+                    aria-label="查看直立式自助借還書機"
+                    aria-expanded="false"
+                    aria-controls="hero-product-detail"
+                  ></button>
+                </div>
+              </div>
+            </article>
+            <article
+              class="lh-card"
+              inert=""
+              style="left: 1187px; width: 593.5px"
+            >
+              <div
+                class="lh-label"
+                style="left: 139.0969387755102px; top: 139.12244897959184px"
+              >
+                <div class="lh-category">借還書</div>
+                <p class="lh-product-en">Desktop Self-Service Kiosk</p>
+                <h2>桌上型自助借還書機</h2>
+              </div>
+              <div
+                class="lh-composition"
+                style="
+                  transform: translate(
+                      -307.94897959183675px,
+                      21.020408163265305px
+                    )
+                    scale(1.0510204081632653);
+                "
+              >
+                <div class="lh-artwork" style="transform-origin: 293px 450px">
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/child/cabinet.png"
+                    style="
+                      left: 100.75px;
+                      top: 246.3px;
+                      width: 321.024px;
+                      z-index: 1;
+                      transform: matrix(1, -0.02, 0, 1.1, 0, 0);
+                    "
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer illustration"
+                    src="assets/hero-layers/child/product-illustration.png"
+                    style="left: 223px; top: 169px; width: 142px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer real"
+                    src="assets/hero-layers/child/product-3d.png"
+                    style="left: 223px; top: 169px; width: 142px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/child/book.png"
+                    style="left: 287px; top: 282px; width: 48px; z-index: 6"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/child/person.png"
+                    style="
+                      left: 269.05px;
+                      top: 180.85px;
+                      width: 185.856px;
+                      z-index: 7;
+                    "
+                    alt=""
+                  />
+                  <button
+                    class="lh-hotspot"
+                    type="button"
+                    style="left: 133px"
+                    aria-label="查看桌上型自助借還書機"
+                    aria-expanded="false"
+                    aria-controls="hero-product-detail"
+                  ></button>
+                </div>
+              </div>
+            </article>
+            <article
+              class="lh-card"
+              inert=""
+              style="left: 1780.5px; width: 593.5px"
+            >
+              <div
+                class="lh-label"
+                style="left: 139.0969387755102px; top: 25.612244897959158px"
+              >
+                <div class="lh-category">空間設備服務</div>
+                <p class="lh-product-en">Space Kiosk</p>
+                <h2>直立式空間座位預約機</h2>
+              </div>
+              <div
+                class="lh-composition"
+                style="
+                  transform: translate(
+                      -340.53061224489795px,
+                      26.27551020408163px
+                    )
+                    scale(1.0510204081632653);
+                "
+              >
+                <div class="lh-artwork" style="transform-origin: 324px 445px">
+                  <img
+                    class="lh-layer illustration"
+                    src="assets/hero-layers/space/product-illustration.png"
+                    style="left: 310px; top: 160px; width: 199px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer real"
+                    src="assets/hero-layers/space/product-3d.png"
+                    style="left: 310px; top: 160px; width: 199px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/space/person.png"
+                    style="left: 155px; top: 78px; width: 250px; z-index: 7"
+                    alt=""
+                  />
+                  <button
+                    class="lh-hotspot"
+                    type="button"
+                    style="left: 164px"
+                    aria-label="查看直立式空間座位預約機"
+                    aria-expanded="false"
+                    aria-controls="hero-product-detail"
+                  ></button>
+                </div>
+              </div>
+            </article>
+            <article
+              class="lh-card"
+              inert=""
+              style="left: 2374px; width: 593.5px"
+            >
+              <div
+                class="lh-label"
+                style="left: 139.0969387755102px; top: 99.18367346938774px"
+              >
+                <div class="lh-category">館務作業</div>
+                <p class="lh-product-en">Workstation</p>
+                <h2>館員工作站</h2>
+              </div>
+              <div
+                class="lh-composition"
+                style="
+                  transform: translate(
+                      -327.91836734693874px,
+                      -11.561224489795919px
+                    )
+                    scale(1.0510204081632653);
+                "
+              >
+                <div class="lh-artwork" style="transform-origin: 312px 481px">
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/staff/person.png"
+                    style="left: 310px; top: 171px; width: 200px; z-index: 1"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer plain"
+                    src="assets/hero-layers/staff/desk.png"
+                    style="left: 90px; top: 218px; width: 445px; z-index: 2"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer illustration"
+                    src="assets/hero-layers/staff/product-illustration.png"
+                    style="left: 150px; top: 205px; width: 220px; z-index: 3"
+                    alt=""
+                  />
+                  <img
+                    class="lh-layer real"
+                    src="assets/hero-layers/staff/product-3d.png"
+                    style="left: 150px; top: 205px; width: 220px; z-index: 3"
+                    alt=""
+                  />
+                  <button
+                    class="lh-hotspot"
+                    type="button"
+                    style="left: 152px"
+                    aria-label="查看館員工作站"
+                    aria-expanded="false"
+                    aria-controls="hero-product-detail"
+                  ></button>
+                </div>
+              </div>
+            </article>
+          </div>
+          <button
+            class="lh-arrow prev"
+            type="button"
+            aria-label="上一組產品"
+            disabled=""
+          >
+            <svg
+              class="lucide lucide-chevron-left"
+              aria-hidden="true"
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="url(#hero-green)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m15 18-6-6 6-6" />
+            </svg>
+          </button>
+          <button class="lh-arrow next" type="button" aria-label="下一組產品">
+            <svg
+              class="lucide lucide-chevron-right"
+              aria-hidden="true"
+              focusable="false"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="url(#hero-green)"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="m9 18 6-6-6-6" />
+            </svg>
+          </button>
+        </div>
+      </section>
+      <section class="site-section site-about" id="about">
+        <div>
+          <h2>一條線，不只連結設備。</h2>
+          <p class="eyebrow" lang="en">ABOUT LIB ONE</p>
+        </div>
+        <p>
+          Living Flow
+          描繪的是服務如何在空間裡移動：從讀者抵達、完成借閱、找到位置，到館員在背後接續作業。每個產品是一個節點，整體體驗才是完整的圖書館日常。
+        </p>
+      </section>
+      <section class="site-section site-overview" id="journey">
+        <h2>智慧圖書館設備總覽</h2>
+        <p class="eyebrow" lang="en">SMART LIBRARY JOURNEY</p>
+        <article class="site-scene" id="scene-entry">
+          <div>
+            <span class="site-node"> </span>
+            <small>01 · ARRIVAL &amp; ACCESS</small>
+            <h3>出入館</h3>
+            <p class="site-scene-statement">
+              從入口開始，讓辨識、通行與服務自然接續。
+            </p>
+          </div>
+          <div class="site-products">
+            <a class="site-product" href="access-gate.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Access%20Gate/img/overview-product.png"
+                  alt="Access Gate 智慧閘門產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Access Gate</small>
+              <h4>智慧閘門</h4>
+              <ul>
+                <li>多元讀者身分驗證</li>
+                <li>快速進出與無障礙通行</li>
+                <li>進出方向與人流統計</li>
+                <li>防夾、防尾隨與緊急開門</li>
+                <li>可整合 HyLib、門禁與訪客系統</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a class="site-product" href="smart-checkout-gate.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Smart%20Checkout%20Gate/img/overview-product.png"
+                  alt="Smart Checkout Gate 智慧借閱通關系統產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Smart Checkout Gate</small>
+              <h4>智慧借閱通關系統</h4>
+              <ul>
+                <li>讀者與館藏自動辨識</li>
+                <li>借閱與離館一次完成</li>
+                <li>可依館藏配置 HF或是UHF RFID、條碼辨識</li>
+                <li>雙門互鎖與異常攔截</li>
+                <li>無障礙通行與安全感測</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+          </div>
+        </article>
+        <article class="site-scene" id="scene-borrow">
+          <div>
+            <span class="site-node"> </span>
+            <small>02 · BORROW &amp; RETURN</small>
+            <h3>借還書</h3>
+            <p class="site-scene-statement">
+              把高頻借還流程，安排成讀者可以自己完成的日常。
+            </p>
+          </div>
+          <div class="site-products">
+            <a class="site-product" href="self-service-kiosk.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/self-service-kiosk/img/overview-product.png"
+                  alt="Self-Service Kiosk 直立式自助借還書機產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Self-Service Kiosk</small>
+              <h4>直立式自助借還書機</h4>
+              <ul>
+                <li>自助借書、還書與續借</li>
+                <li>RFID 多本同時辨識</li>
+                <li>讀者帳戶即時查詢</li>
+                <li>多語與語音操作指引</li>
+                <li>電子／紙本收據與遠端管理</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a class="site-product" href="desktop-self-service-kiosk.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/desktop-self-service-kiosk/img/overview-product.png"
+                  alt="Desktop Self-Service Kiosk 桌上型自助借還書機產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Desktop Self-Service Kiosk</small>
+              <h4>桌上型自助借還書機</h4>
+              <ul>
+                <li>自助借書、還書與續借</li>
+                <li>RFID 多本同時辨識</li>
+                <li>讀者帳戶即時查詢</li>
+                <li>多語與語音操作指引</li>
+                <li>電子／紙本收據與遠端管理</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a
+              class="site-product"
+              href="smart-reserved-book-pickup-locker.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Smart%20Reserved%20Book%20Pickup%20Locker/img/overview-product.png"
+                  alt="Smart Reserved Book Pickup Locker 智慧預約取書櫃產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Smart Reserved Book Pickup Locker</small>
+              <h4>智慧預約取書櫃</h4>
+              <ul>
+                <li>24 小時自助預約取書</li>
+                <li>讀者操作與隱私規劃</li>
+                <li>智慧配架與櫃位監控</li>
+                <li>館務單一介面</li>
+                <li>模組化櫃體彈性擴充</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a
+              class="site-product"
+              href="hypass-self-service-registration-kiosk.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/hypass-self-service-registration-kiosk/img/overview-product.png"
+                  alt="HyPass Self-Service Registration Kiosk 圖書館智慧辦證服務站產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>HyPass Self-Service Registration Kiosk</small>
+              <h4>HyPass 圖書館智慧辦證服務站</h4>
+              <ul>
+                <li>證件 OCR／MRZ 快速辨識</li>
+                <li>新辦、預辦開卡與展延一機完成</li>
+                <li>悠遊卡／一卡通綁定借閱</li>
+                <li>交易後不留存個資</li>
+                <li>繁中、簡中、英文多語介面</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+          </div>
+        </article>
+        <article class="site-scene" id="scene-space">
+          <div>
+            <span class="site-node"> </span>
+            <small>03 · SPACE SERVICES</small>
+            <h3>空間設備服務</h3>
+            <p class="site-scene-statement">
+              讓預約、資訊與設備服務，成為閱讀空間的一部分。
+            </p>
+          </div>
+          <div class="site-products">
+            <a class="site-product" href="space-kiosk.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Space%20Kiosk/img/overview-product.png"
+                  alt="Space Kiosk 直立式空間座位預約機產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Space Kiosk</small>
+              <h4>直立式空間座位預約機</h4>
+              <ul>
+                <li>座位與討論室即時查詢</li>
+                <li>現場預約與驗證報到</li>
+                <li>預約時段與資格規則管理</li>
+                <li>逾時未報到自動釋出</li>
+                <li>使用率與熱門時段統計</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a class="site-product" href="desktop-space-kiosk.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Desktop%20Space%20Kiosk/img/overview-product.png"
+                  alt="Desktop Space Kiosk 桌上型空間座位預約機產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Desktop Space Kiosk</small>
+              <h4>桌上型空間座位預約機</h4>
+              <ul>
+                <li>座位與討論室即時查詢</li>
+                <li>現場預約與驗證報到</li>
+                <li>預約時段與資格規則管理</li>
+                <li>逾時未報到自動釋出</li>
+                <li>使用率與熱門時段統計</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a class="site-product" href="display.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Display/img/overview-product.png"
+                  alt="Display 電子紙／數位資訊顯示設備產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Display</small>
+              <h4>電子紙／數位資訊顯示設備</h4>
+              <ul>
+                <li>電子紙與數位看板整合</li>
+                <li>圖文、影音與網頁發布</li>
+                <li>多設備分群與排程播放</li>
+                <li>館藏、活動與空間資訊介接</li>
+                <li>遠端更新與播放紀錄管理</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a class="site-product" href="hyread-kiosk.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Hyread%20Kiosk/img/overview-product.png"
+                  alt="HyRead Kiosk HyRead 行動圖書館產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>HyRead Kiosk</small>
+              <h4>HyRead 行動圖書館</h4>
+              <ul>
+                <li>不限時地觸控看書</li>
+                <li>新刊封面華麗呈現</li>
+                <li>QR Code閱讀接軌</li>
+                <li>主題書展隨心所欲</li>
+                <li>關鍵字詞自由定義</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a
+              class="site-product"
+              href="multifunction-device-charging-cabinet.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Charging%20Cabinet/img/overview-product.png"
+                  alt="Multifunction Device Charging Cabinet 多功能設備充電櫃產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Multifunction Device Charging Cabinet</small>
+              <h4>多功能設備充電櫃</h4>
+              <ul>
+                <li>多格數彈性選擇</li>
+                <li>自助化借用流程</li>
+                <li>集中充電與安全保管</li>
+                <li>設備與櫃位彈性配置</li>
+                <li>後台盤點與紀錄追蹤</li>
+                <li>可介接既有系統</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+          </div>
+        </article>
+        <article class="site-scene" id="scene-staff">
+          <div>
+            <span class="site-node"> </span>
+            <small>04 · LIBRARY OPERATIONS</small>
+            <h3>館務作業</h3>
+            <p class="site-scene-statement">
+              以清楚的工作節點，承接館員每天的流通與館藏作業。
+            </p>
+          </div>
+          <div class="site-products">
+            <a class="site-product" href="workstation.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/Workstation/img/overview-product.png"
+                  alt="Workstation 館員工作站產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>Workstation</small>
+              <h4>館員工作站</h4>
+              <ul>
+                <li>借還、續借與帳戶作業</li>
+                <li>支援 RFID 與條碼辨識</li>
+                <li>雙螢幕整合於機身，無需外接</li>
+                <li>支援館務相關周邊裝置</li>
+                <li>精巧機身減少桌面占用</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+            <a class="site-product" href="rfid-workstation.html"
+              ><figure class="site-product-visual">
+                <img
+                  src="assets/products/RFID%20Workstation/img/overview-product.png"
+                  alt="RFID Workstation RFID工作站產品圖"
+                  loading="lazy"
+                />
+              </figure>
+              <small>RFID Workstation</small>
+              <h4>RFID工作站</h4>
+              <ul>
+                <li>借還、續借與帳戶作業</li>
+                <li>支援 RFID 與條碼辨識</li>
+                <li>支援館務相關周邊裝置</li>
+                <li>精巧機身減少桌面占用</li>
+                <li>模組化設計便於維修</li>
+              </ul>
+              <span
+                >了解產品
+                <svg
+                  class="lucide lucide-arrow-up-right"
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M7 7h10v10" />
+                  <path d="M7 17 17 7" /></svg
+              ></span>
+            </a>
+          </div>
+        </article>
+      </section>
+      <section class="site-section" id="services">
+        <h2>專案規劃與服務支援</h2>
+        <p class="eyebrow" lang="en">DESIGN DETAILS</p>
+        <div class="site-services">
+          <article>
+            <small>01</small>
+            <h3>場域與設備規劃</h3>
+            <p>依館內動線與空間環境進行整體規劃設計。</p>
+          </article>
+          <article>
+            <small>02</small>
+            <h3>安裝與系統整合</h3>
+            <p>確認網路、電力、施工與系統介接條件。</p>
+          </article>
+          <article>
+            <small>03</small>
+            <h3>維護與服務支援</h3>
+            <p>依設備與專案內容，提供維護及技術支援。</p>
+          </article>
+        </div>
+      </section>
+      <section class="site-section site-contact">
+        <h2>與我們聯繫</h2>
+        <p class="eyebrow" lang="en">START A PROJECT</p>
+        <a class="solid-button" href="mailto:service@hyweb.com.tw"
+          >專人諮詢
+          <svg
+            class="lucide lucide-arrow-up-right"
+            aria-hidden="true"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M7 7h10v10" />
+            <path d="M7 17 17 7" /></svg
+        ></a>
+        <!-- <a class="solid-button" href="mailto:service@hyweb.com.tw"
+          >索取產品規格
+          <svg
+            class="lucide lucide-arrow-up-right"
+            aria-hidden="true"
+            focusable="false"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M7 7h10v10" />
+            <path d="M7 17 17 7" /></svg
+        ></a> -->
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <a href="index.html">
+          <img src="assets/brand/lib-one-logo2.svg" alt="Lib One" />
+        </a>
+        <p>One Library · One Platform · One Experience</p>
+        <p>凌網資訊全新智慧圖書館品牌</p>
+      </div>
+      <div>
+        <b>凌網資訊股份有限公司 Hyweb System Services co. ltd.</b>
+        <div>
+          <p>
+            總公司：新竹縣竹北市台元一街8號5樓之7<br /><a
+              href="tel:03-5601296"
+              >03-5601296</a
+            >
+          </p>
+          <p>
+            台北分公司：台北市重慶南路二段 51 號 5 樓<br /><a
+              href="tel:02-2395-6966"
+              >02-2395-6966</a
+            >
+          </p>
+        </div>
+        <a href="mailto:service@hyweb.com.tw">service@hyweb.com.tw</a>
+      </div>
+      <small
+        >© 2026 Lib One all rights reserved.．Powered by Hyweb System Services
+        co. ltd.</small
+      >
+    </footer>
+  </body>
+</html>
