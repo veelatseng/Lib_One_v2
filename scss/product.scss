@@ -53,8 +53,8 @@
   color: transparent;
   font-size: 60px;
   font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 0.98;
+  letter-spacing: -0.02em;
+  line-height: 125%;
 }
 
 .product-intro {
@@ -98,6 +98,17 @@
     max-height: calc(100svh - #{$header-height} - 75px);
     object-fit: contain;
     filter: drop-shadow(0 26px 24px rgba($color-shadow-green, 0.12));
+  }
+}
+
+// 複合主圖含桌子及左側透明留白，放大後維持原本機器的視覺高度。
+.product-page[data-product-id="self-service-kiosk"] .product-hero-visual {
+  justify-content: flex-end;
+
+  img {
+    flex: none;
+    width: min(152.625%, 931.475px);
+    max-width: none;
   }
 }
 
@@ -714,6 +725,9 @@
   .product-hero-visual {
     flex-basis: 44%;
   }
+  .product-page[data-product-id="self-service-kiosk"] .product-hero-visual img {
+    width: min(134.125%, 814px);
+  }
   .product-page:is(
       [data-product-id="workstation"],
       [data-product-id="rfid-workstation"],
@@ -864,6 +878,13 @@
   .product-hero-visual img {
     width: min(92%, 420px);
     max-height: 440px;
+  }
+  .product-page[data-product-id="self-service-kiosk"] .product-hero-visual {
+    margin-inline: -24px;
+
+    img {
+      width: min(120.25%, 564.25px);
+    }
   }
   .product-page:is(
       [data-product-id="workstation"],
