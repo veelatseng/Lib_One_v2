@@ -17,7 +17,7 @@
 - 圖示：Lucide SVG 已內嵌於 HTML 與 `js/icons.js`，共用尺寸在 `css/icons.css`；授權保存在 `assets/icons/lucide/LICENSE`。來源：https://github.com/lucide-icons/lucide（2026-09-15 取得）。
 - 圖片及字體：`assets/`。搬移時請搬整個資料夾，不要只搬 HTML。
 - 產品圖片位於各產品資料夾的 `img/`。首頁設備總覽使用 `overview-product` 素材；產品 Hero 與相關產品卡片使用 `hero-product` 素材，副檔名依採用版本而定。
-- 替換產品圖時，須同步檢查首頁設備總覽、內頁 Hero、相關產品卡片及 JSON-LD。已提供 `*-no-cameras.webp` 的產品，應引用對應的去鏡頭版本，避免相關產品卡片沿用舊圖。
+- 替換產品圖時，須同步檢查首頁設備總覽、內頁 Hero、相關產品卡片及 JSON-LD。借還書機、空間座位預約機與館員工作站已提供 `*-no-cameras.webp` 的圖片，應引用對應的去鏡頭版本，避免相關產品卡片沿用舊圖。充電櫃與智慧預約取書櫃保留原有鏡頭，使用原始圖片。
 
 保留 Hero 手動切換、視差、產品換圖、放大、手機滑動、場域按鈕、鍵盤與選單操作；沒有自動輪播。減少動態偏好沿用原 CSS。
 
