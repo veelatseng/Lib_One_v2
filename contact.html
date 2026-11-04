@@ -9,6 +9,7 @@
       content="聯絡 Lib One，洽詢智慧圖書館設備、場域規劃、系統整合、安裝與維護服務。"
     />
     <meta name="robots" content="index, follow, max-snippet:-1" />
+    <link rel="canonical" href="https://lib-one.com/contact" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="stylesheet" href="css/globals.css" />
@@ -17,36 +18,43 @@
     <script defer src="js/data.js"></script>
     <script defer src="js/icons.js"></script>
     <script defer src="js/site.js"></script>
+    <script type="module" src="js/contact.js"></script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "ContactPage",
-        "name": "Lib One 服務與聯絡",
-        "description": "智慧圖書館設備、場域規劃、系統整合、安裝與維護服務洽詢。",
-        "mainEntity": {
-          "@type": "Organization",
-          "name": "凌網資訊股份有限公司",
-          "email": "service@hyweb.com.tw",
-          "telephone": "+886-3-560-1296"
-        }
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "ContactPage",
+  "name": "Lib One 服務與聯絡",
+  "description": "智慧圖書館設備、場域規劃、系統整合、安裝與維護服務洽詢。",
+  "mainEntity": {
+    "@id": "https://lib-one.com/#organization"
+  },
+  "@id": "https://lib-one.com/contact#webpage",
+  "url": "https://lib-one.com/contact",
+  "inLanguage": "zh-Hant",
+  "about": {
+    "@id": "https://lib-one.com/#brand"
+  },
+  "isPartOf": {
+    "@id": "https://lib-one.com/#website"
+  }
+}
     </script>
   </head>
   <body class="contact-page">
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Lib One 首頁">
+      <a class="brand" href="/" aria-label="Lib One 首頁">
         <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
-        <a href="index.html#scene-entry">出入館</a>
-        <a href="index.html#scene-borrow">借還書</a>
-        <a href="index.html#scene-space">空間設備服務</a>
-        <a href="index.html#scene-staff">館務作業</a>
+        <a href="/#scene-entry">出入館</a>
+        <a href="/#scene-borrow">借還書</a>
+        <a href="/#scene-space">空間設備服務</a>
+        <a href="/#scene-staff">館務作業</a>
       </nav>
       <div class="header-actions">
         <a
           class="header-contact"
-          href="mailto:service@hyweb.com.tw"
+          href="/contact"
           aria-current="page"
         >
           服務與聯絡
@@ -122,17 +130,17 @@
         </div>
         <div class="menu-groups">
           <section class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-entry"
+            <a class="menu-scene-link" href="/#scene-entry"
               ><small>01</small><span>出入館</span></a
             >
             <ul>
               <li>
-                <a href="access-gate.html"
+                <a href="/access-gate"
                   ><span>智慧閘門</span><small>Access Gate</small></a
                 >
               </li>
               <li>
-                <a href="smart-checkout-gate.html"
+                <a href="/smart-checkout-gate"
                   ><span>智慧借閱通關系統</span
                   ><small>Smart Checkout Gate</small></a
                 >
@@ -140,62 +148,62 @@
             </ul>
           </section>
           <section class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-borrow"
+            <a class="menu-scene-link" href="/#scene-borrow"
               ><small>02</small><span>借還書</span></a
             >
             <ul>
               <li>
-                <a href="self-service-kiosk.html"
+                <a href="/self-service-kiosk"
                   ><span>直立式自助借還書機</span
                   ><small>Self-Service Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="desktop-self-service-kiosk.html"
+                <a href="/desktop-self-service-kiosk"
                   ><span>桌上型自助借還書機</span
                   ><small>Desktop Self-Service Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="smart-reserved-book-pickup-locker.html"
+                <a href="/smart-reserved-book-pickup-locker"
                   ><span>智慧預約取書櫃</span
                   ><small>Smart Reserved Book Pickup Locker</small></a
                 >
               </li>
               <li>
-                <a href="hypass-self-service-registration-kiosk.html"><span>HyPass 圖書館智慧辦證服務站</span><small>HyPass Self-Service Registration Kiosk</small></a>
+                <a href="/hypass-self-service-registration-kiosk"><span>HyPass 圖書館智慧辦證服務站</span><small>HyPass Self-Service Registration Kiosk</small></a>
               </li>
             </ul>
           </section>
           <section class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-space"
+            <a class="menu-scene-link" href="/#scene-space"
               ><small>03</small><span>空間設備服務</span></a
             >
             <ul>
               <li>
-                <a href="space-kiosk.html"
+                <a href="/space-kiosk"
                   ><span>直立式空間座位預約機</span><small>Space Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="desktop-space-kiosk.html"
+                <a href="/desktop-space-kiosk"
                   ><span>桌上型空間座位預約機</span
                   ><small>Desktop Space Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="hyread-kiosk.html"
+                <a href="/hyread-kiosk"
                   ><span>HyRead 行動圖書館</span><small>HyRead Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="display.html"
+                <a href="/display"
                   ><span>電子紙／數位資訊顯示設備</span
                   ><small>Display</small></a
                 >
               </li>
               <li>
-                <a href="multifunction-device-charging-cabinet.html"
+                <a href="/multifunction-device-charging-cabinet"
                   ><span>多功能設備充電櫃</span
                   ><small>Multifunction Device Charging Cabinet</small></a
                 >
@@ -203,17 +211,17 @@
             </ul>
           </section>
           <section class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-staff"
+            <a class="menu-scene-link" href="/#scene-staff"
               ><small>04</small><span>館務作業</span></a
             >
             <ul>
               <li>
-                <a href="workstation.html"
+                <a href="/workstation"
                   ><span>館員工作站</span><small>Workstation</small></a
                 >
               </li>
               <li>
-                <a href="rfid-workstation.html"
+                <a href="/rfid-workstation"
                   ><span>RFID工作站</span><small>RFID Workstation</small></a
                 >
               </li>
@@ -243,11 +251,13 @@
           <h2 id="inquiry-title">預約專案諮詢</h2>
           <p>
             標示「<span class="required-mark">＊</span
-            >」的欄位為必填，我們會由專人與您聯絡。
+            >」的欄位為必填。填妥後會開啟您的 Email 草稿，請確認並自行寄出；本站不會自動寄信。
           </p>
         </div>
 
-        <form class="contact-form" id="contact-form" method="post">
+        <form class="contact-form" id="contact-form" action="mailto:service@hyweb.com.tw" method="post" enctype="text/plain">
+          <p>您也可以直接寄至 <a href="mailto:service@hyweb.com.tw">service@hyweb.com.tw</a>，或使用下方的「複製需求內容」。</p>
+          <noscript><p>此表單需要 JavaScript 準備草稿；您仍可使用上方 Email 聯絡我們。</p></noscript>
           <div class="contact-fields">
             <label>
               <span>單位名稱<span class="required-mark">＊</span></span>
@@ -285,14 +295,14 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="access-gate"
                     value="智慧閘門｜Access Gate"
                   /><span>智慧閘門<small>Access Gate</small></span></label
                 >
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="smart-checkout-gate"
                     value="智慧借閱通關系統｜Smart Checkout Gate"
                   /><span
                     >智慧借閱通關系統<small>Smart Checkout Gate</small></span
@@ -304,7 +314,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="self-service-kiosk"
                     value="直立式自助借還書機｜Self-Service Kiosk"
                   /><span
                     >直立式自助借還書機<small>Self-Service Kiosk</small></span
@@ -313,7 +323,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="desktop-self-service-kiosk"
                     value="桌上型自助借還書機｜Desktop Self-Service Kiosk"
                   /><span
                     >桌上型自助借還書機<small
@@ -324,7 +334,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="smart-reserved-book-pickup-locker"
                     value="智慧預約取書櫃｜Smart Reserved Book Pickup Locker"
                   /><span
                     >智慧預約取書櫃<small
@@ -332,13 +342,14 @@
                     ></span
                   ></label
                 >
+                <label><input type="checkbox" name="interests[]" data-product-id="hypass-self-service-registration-kiosk" value="HyPass 圖書館智慧辦證服務站｜HyPass Self-Service Registration Kiosk" /><span>HyPass 圖書館智慧辦證服務站<small>HyPass Self-Service Registration Kiosk</small></span></label>
               </fieldset>
               <fieldset>
                 <legend>空間設備服務</legend>
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="space-kiosk"
                     value="直立式空間座位預約機｜Space Kiosk"
                   /><span
                     >直立式空間座位預約機<small>Space Kiosk</small></span
@@ -347,7 +358,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="desktop-space-kiosk"
                     value="桌上型空間座位預約機｜Desktop Space Kiosk"
                   /><span
                     >桌上型空間座位預約機<small>Desktop Space Kiosk</small></span
@@ -356,7 +367,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="hyread-kiosk"
                     value="HyRead 行動圖書館｜HyRead Kiosk"
                   /><span
                     >HyRead 行動圖書館<small>HyRead Kiosk</small></span
@@ -365,7 +376,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="display"
                     value="電子紙／數位資訊顯示設備｜Display"
                   /><span
                     >電子紙／數位資訊顯示設備<small>Display</small></span
@@ -374,7 +385,7 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="multifunction-device-charging-cabinet"
                     value="多功能設備充電櫃｜Multifunction Device Charging Cabinet"
                   /><span
                     >多功能設備充電櫃<small
@@ -388,14 +399,14 @@
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="workstation"
                     value="館員工作站｜Workstation"
                   /><span>館員工作站<small>Workstation</small></span></label
                 >
                 <label
                   ><input
                     type="checkbox"
-                    name="interests[]"
+                    name="interests[]" data-product-id="rfid-workstation"
                     value="RFID工作站｜RFID Workstation"
                   /><span
                     >RFID工作站<small>RFID Workstation</small></span
@@ -426,8 +437,8 @@
           </label>
 
           <div class="form-actions">
-            <button class="contact-submit" type="submit">
-              送出專案需求
+            <button class="contact-submit" type="submit" data-inquiry-action disabled>
+              以 Email 傳送需求
               <svg
                 class="lucide"
                 aria-hidden="true"
@@ -442,9 +453,15 @@
                 <path d="M7 17 17 7" />
               </svg>
             </button>
+            <button class="inquiry-copy" type="button" data-copy-inquiry data-inquiry-action disabled>複製需求內容</button>
             <p class="form-status" role="status" aria-live="polite">
-              目前為預覽版本，尚未連接寄信或試算表服務。
+              填妥後請在您的郵件軟體中確認並寄出。
             </p>
+          </div>
+          <div class="prepared-inquiry" hidden>
+            <label for="inquiry-draft">需求內容（可手動選取複製）</label>
+            <textarea id="inquiry-draft" rows="10" readonly spellcheck="false"></textarea>
+            <p>若郵件軟體沒有開啟或需求較長，可複製以上內容，寄至 service@hyweb.com.tw。</p>
           </div>
         </form>
       </section>
@@ -452,7 +469,7 @@
 
     <footer class="site-footer">
       <div class="footer-brand">
-        <a href="index.html"
+        <a href="/"
           ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>

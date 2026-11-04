@@ -1,4 +1,5 @@
 @use "variables" as *;
+@use "seo";
 
 @each $weight in $font-weights {
   @font-face {

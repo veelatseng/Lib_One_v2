@@ -20,7 +20,7 @@ window.LIB_ONE_DATA = {
   "products": [
     {
       "id": "access-gate",
-      "path": "/products/access-gate",
+      "path": "/access-gate",
       "nameEn": "Access Gate",
       "nameZh": "智慧閘門",
       "sceneSlug": "entry",
@@ -28,7 +28,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "smart-checkout-gate",
-      "path": "/products/smart-checkout-gate",
+      "path": "/smart-checkout-gate",
       "nameEn": "Smart Checkout Gate",
       "nameZh": "智慧借閱通關系統",
       "sceneSlug": "entry",
@@ -36,7 +36,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "self-service-kiosk",
-      "path": "/products/self-service-kiosk",
+      "path": "/self-service-kiosk",
       "nameEn": "Self-Service Kiosk",
       "nameZh": "直立式自助借還書機",
       "sceneSlug": "borrow",
@@ -44,7 +44,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "desktop-self-service-kiosk",
-      "path": "/products/desktop-self-service-kiosk",
+      "path": "/desktop-self-service-kiosk",
       "nameEn": "Desktop Self-Service Kiosk",
       "nameZh": "桌上型自助借還書機",
       "sceneSlug": "borrow",
@@ -52,7 +52,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "smart-reserved-book-pickup-locker",
-      "path": "/products/smart-reserved-book-pickup-locker",
+      "path": "/smart-reserved-book-pickup-locker",
       "nameEn": "Smart Reserved Book Pickup Locker",
       "nameZh": "智慧預約取書櫃",
       "sceneSlug": "borrow",
@@ -60,7 +60,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "hypass-self-service-registration-kiosk",
-      "path": "/products/hypass-self-service-registration-kiosk",
+      "path": "/hypass-self-service-registration-kiosk",
       "nameEn": "HyPass Self-Service Registration Kiosk",
       "nameZh": "HyPass 圖書館智慧辦證服務站",
       "sceneSlug": "borrow",
@@ -68,7 +68,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "space-kiosk",
-      "path": "/products/space-kiosk",
+      "path": "/space-kiosk",
       "nameEn": "Space Kiosk",
       "nameZh": "直立式空間座位預約機",
       "sceneSlug": "space",
@@ -76,7 +76,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "desktop-space-kiosk",
-      "path": "/products/desktop-space-kiosk",
+      "path": "/desktop-space-kiosk",
       "nameEn": "Desktop Space Kiosk",
       "nameZh": "桌上型空間座位預約機",
       "sceneSlug": "space",
@@ -84,7 +84,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "display",
-      "path": "/products/display",
+      "path": "/display",
       "nameEn": "Display",
       "nameZh": "電子紙／數位資訊顯示設備",
       "sceneSlug": "space",
@@ -92,7 +92,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "hyread-kiosk",
-      "path": "/products/hyread-kiosk",
+      "path": "/hyread-kiosk",
       "nameEn": "HyRead Kiosk",
       "nameZh": "HyRead 行動圖書館",
       "sceneSlug": "space",
@@ -100,7 +100,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "multifunction-device-charging-cabinet",
-      "path": "/products/multifunction-device-charging-cabinet",
+      "path": "/multifunction-device-charging-cabinet",
       "nameEn": "Multifunction Device Charging Cabinet",
       "nameZh": "多功能設備充電櫃",
       "sceneSlug": "space",
@@ -108,7 +108,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "workstation",
-      "path": "/products/workstation",
+      "path": "/workstation",
       "nameEn": "Workstation",
       "nameZh": "館員工作站",
       "sceneSlug": "staff",
@@ -116,7 +116,7 @@ window.LIB_ONE_DATA = {
     },
     {
       "id": "rfid-workstation",
-      "path": "/products/rfid-workstation",
+      "path": "/rfid-workstation",
       "nameEn": "RFID Workstation",
       "nameZh": "RFID工作站",
       "sceneSlug": "staff",
