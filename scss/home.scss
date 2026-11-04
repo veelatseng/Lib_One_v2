@@ -81,6 +81,19 @@
   touch-action: pan-y;
 }
 
+.lh-stage.is-initializing {
+  .lh-track {
+    visibility: hidden;
+  }
+
+  .lh-track,
+  .lh-composition,
+  .lh-label,
+  .lh-artwork {
+    transition: none;
+  }
+}
+
 .lh-track {
   position: absolute;
   z-index: 2;
@@ -151,7 +164,7 @@
 }
 
 .lh-category {
-  color: $color-green;
+  color: $color-green-text;
   font-size: 13px;
   line-height: 1.4;
   font-weight: bold;
@@ -182,7 +195,7 @@
     opacity: 0;
   }
 
-  &[src$="staff/person.png"] {
+  &[src$="staff/person.optimized.webp"] {
     transform: scale(1.12);
     transform-origin: 50% 100%;
   }
@@ -265,7 +278,7 @@
   }
 
   small {
-    color: $color-green-mid;
+    color: $color-green-text;
     font-size: 12px;
     font-weight: bold;
   }
@@ -282,7 +295,7 @@
   }
 
   a {
-    color: $color-green;
+    color: $color-green-text;
     font-size: 14px;
   }
 }
@@ -416,7 +429,7 @@
     padding-left: 36px;
 
     > small {
-      color: $color-green;
+      color: $color-green-text;
       font-size: 11px;
       font-weight: 600;
       letter-spacing: 0.04em;
@@ -500,7 +513,7 @@
 
   small {
     width: calc(55% - 7px);
-    color: $color-green;
+    color: $color-green-text;
     font-size: 12px;
     line-height: 1.5;
     font-weight: 600;
@@ -519,7 +532,7 @@
     display: inline-flex;
     align-items: center;
     gap: 5px;
-    color: $color-green;
+    color: $color-green-text;
     font-size: 13px;
     font-weight: 600;
     width: calc(55% - 7px);
@@ -593,7 +606,7 @@
 
     > small {
       display: block;
-      color: $color-green;
+      color: $color-green-text;
       font-size: 20px;
       font-weight: 600;
     }

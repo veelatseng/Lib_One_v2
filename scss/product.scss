@@ -247,7 +247,7 @@
 
   p {
     margin: 0;
-    color: $color-green;
+    color: $color-green-text;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 0.12em;
@@ -284,7 +284,7 @@
 
   span {
     margin-top: 18px;
-    color: $color-lime;
+    color: $color-lime-text;
     font-size: 18px;
     font-weight: 700;
   }
@@ -425,7 +425,7 @@
       }
       span {
         font-weight: bold;
-        color: $color-green;
+        color: $color-green-text;
       }
     }
   }
@@ -441,7 +441,7 @@
   }
   dt {
     flex: 0 0 48px;
-    color: $color-green;
+    color: $color-green-text;
     font-weight: 700;
   }
   dd {
@@ -451,7 +451,7 @@
     span {
       display: block;
       font-weight: 700;
-      color: $color-green;
+      color: $color-green-text;
     }
   }
 }
@@ -696,7 +696,7 @@
   padding: 26px 12px 26px 26px;
 
   small {
-    color: $color-green;
+    color: $color-green-text;
     font-weight: bold;
   }
   strong {

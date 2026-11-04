@@ -3,17 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>電子紙／數位資訊顯示設備｜Display｜Lib One</title>
+    <title>電子紙／數位資訊顯示設備｜圖書館資訊發布｜Lib One</title>
     <meta
       name="description"
-      content="Lib One 電子紙／數位資訊顯示設備：遠端排程發布館藏推薦、活動公告與空間資訊。電子紙以低干擾方式呈現館藏與告示，數位看板承接影音與即時資訊。兩種載具由同一後台分群、排程與更新，館方可依空間情境選擇合適畫面，維持一致的內容管理。"
+      content="Lib One 電子紙與數位資訊顯示設備支援館藏推薦、活動公告及空間資訊發布，提供設備分群、遠端排程與內容更新，依場域選用電子紙或數位看板，統一管理館內資訊。"
     />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/display" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="Lib One" />
+    <meta property="og:title" content="電子紙／數位資訊顯示設備｜圖書館資訊發布｜Lib One" />
+    <meta property="og:description" content="Lib One 電子紙與數位資訊顯示設備支援館藏推薦、活動公告及空間資訊發布，提供設備分群、遠端排程與內容更新，依場域選用電子紙或數位看板，統一管理館內資訊。" />
+    <meta property="og:url" content="https://lib-one.com/display" />
+    <meta property="og:image" content="https://lib-one.com/assets/products/Display/img/hero-product.optimized.webp" />
+    <meta property="og:image:alt" content="電子紙／數位資訊顯示設備產品圖" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="電子紙／數位資訊顯示設備｜圖書館資訊發布｜Lib One" />
+    <meta name="twitter:description" content="Lib One 電子紙與數位資訊顯示設備支援館藏推薦、活動公告及空間資訊發布，提供設備分群、遠端排程與內容更新，依場域選用電子紙或數位看板，統一管理館內資訊。" />
+    <meta name="twitter:image" content="https://lib-one.com/assets/products/Display/img/hero-product.optimized.webp" />
+    <meta name="twitter:image:alt" content="電子紙／數位資訊顯示設備產品圖" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/icons.css" />
@@ -24,6 +41,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": "https://lib-one.com/display#product",
+        "url": "https://lib-one.com/display",
         "name": "電子紙／數位資訊顯示設備",
         "alternateName": "Display",
         "brand": {
@@ -31,14 +50,14 @@
           "name": "Lib One"
         },
         "description": "電子紙以低干擾方式呈現館藏與告示，數位看板承接影音與即時資訊。兩種載具由同一後台分群、排程與更新，館方可依空間情境選擇合適畫面，維持一致的內容管理。",
-        "image": "assets/products/Display/img/hero-product.webp",
+        "image": "https://lib-one.com/assets/products/Display/img/hero-product.optimized.webp",
         "category": "空間設備服務",
-        "featureList": [
-          "電子紙與數位看板整合",
-          "圖文、影音與網頁發布",
-          "多設備分群與排程播放",
-          "館藏、活動與空間資訊介接",
-          "遠端更新與播放紀錄管理"
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "產品特色", "value": "電子紙與數位看板整合" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "圖文、影音與網頁發布" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "多設備分群與排程播放" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "館藏、活動與空間資訊介接" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "遠端更新與播放紀錄管理" }
         ]
       }
     </script>
@@ -46,7 +65,7 @@
   <body class="product-page" data-product-id="display">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Lib One 首頁">
-        <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
+        <img height="106" width="397" src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
         <a href="index.html#scene-entry">出入館</a>
@@ -274,8 +293,8 @@
             </div>
           </div>
           <figure class="product-hero-visual">
-            <img
-              src="assets/products/Display/img/hero-product.webp"
+            <img fetchpriority="high" height="1058" width="1487"
+              src="assets/products/Display/img/hero-product.optimized.webp"
               alt="Lib One 電子紙／數位資訊顯示設備產品圖"
             />
           </figure>
@@ -290,35 +309,35 @@
         <ul class="feature-list">
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Display/icon/01.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Display/icon/01.svg" alt="" />
             </div>
             <span>01</span>
             <h3>電子紙與數位看板整合</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Display/icon/02.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Display/icon/02.svg" alt="" />
             </div>
             <span>02</span>
             <h3>圖文、影音與網頁發布</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Display/icon/03.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Display/icon/03.svg" alt="" />
             </div>
             <span>03</span>
             <h3>多設備分群與排程播放</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Display/icon/04.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Display/icon/04.svg" alt="" />
             </div>
             <span>04</span>
             <h3>館藏、活動與空間資訊介接</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Display/icon/05.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Display/icon/05.svg" alt="" />
             </div>
             <span>05</span>
             <h3>遠端更新與播放紀錄管理</h3>
@@ -398,7 +417,7 @@
         </div>
         <div class="gallery-pair gallery-pair-single">
           <figure class="gallery-card gallery-photo">
-            <img
+            <img height="1080" width="1518"
               src="assets/products/Display/img/Real01.webp"
               alt="電子紙／數位資訊顯示設備模擬使用情境"
               loading="lazy"
@@ -423,7 +442,7 @@
               ><span lang="en">HyRead Kiosk</span></span
             >
             <figure>
-              <img
+              <img height="1434" width="1076"
                 src="assets/products/Hyread%20Kiosk/img/hero-product.webp"
                 alt="HyRead 行動圖書館產品圖"
                 loading="lazy"
@@ -436,8 +455,8 @@
               ><span lang="en">Space Kiosk</span></span
             >
             <figure>
-              <img
-                src="assets/products/Space%20Kiosk/img/hero-product-no-cameras.webp"
+              <img height="1647" width="1236"
+                src="assets/products/Space%20Kiosk/img/hero-product-no-cameras.optimized.webp"
                 alt="直立式空間座位預約機產品圖"
                 loading="lazy"
               />
@@ -451,8 +470,8 @@
               ></span
             >
             <figure>
-              <img
-                src="assets/products/Charging%20Cabinet/img/hero-product.png"
+              <img height="800" width="800"
+                src="assets/products/Charging%20Cabinet/img/hero-product.optimized.webp"
                 alt="多功能設備充電櫃產品圖"
                 loading="lazy"
               />
@@ -465,7 +484,7 @@
     <footer class="site-footer">
       <div class="footer-brand">
         <a href="index.html"
-          ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
+          ><img height="106" width="397" src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>
         <p>凌網資訊全新智慧圖書館品牌</p>

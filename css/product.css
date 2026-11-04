@@ -215,7 +215,7 @@
 }
 .product-section-heading p {
   margin: 0;
-  color: #168f68;
+  color: #137f5c;
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 0.12em;
@@ -249,7 +249,7 @@
 }
 .feature-list span {
   margin-top: 18px;
-  color: #7dbd2b;
+  color: #4b7819;
   font-size: 18px;
   font-weight: 700;
 }
@@ -376,7 +376,7 @@
 }
 .specification-content ul li span {
   font-weight: bold;
-  color: #168f68;
+  color: #137f5c;
 }
 .specification-content dl {
   margin: 0;
@@ -389,7 +389,7 @@
 }
 .specification-content dt {
   flex: 0 0 48px;
-  color: #168f68;
+  color: #137f5c;
   font-weight: 700;
 }
 .specification-content dd {
@@ -400,7 +400,7 @@
 .specification-content dd span {
   display: block;
   font-weight: 700;
-  color: #168f68;
+  color: #137f5c;
 }
 
 .product-gallery {
@@ -620,7 +620,7 @@
   padding: 26px 12px 26px 26px;
 }
 .related-copy small {
-  color: #168f68;
+  color: #137f5c;
   font-weight: bold;
 }
 .related-copy strong {
@@ -933,6 +933,4 @@
   .interface-screen img {
     transition: none;
   }
-}
-
-/*# sourceMappingURL=product.css.map */
+}/*# sourceMappingURL=product.css.map */

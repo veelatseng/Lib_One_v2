@@ -105,6 +105,7 @@
     }
   });
   if (!stage) return;
+  stage.classList.add('is-initializing');
   const cards = [...stage.querySelectorAll('.lh-card')];
   const flowPath = stage.querySelector('.lh-flow g path');
   const baseFlowPath = flowPath.getAttribute('d');
@@ -213,6 +214,9 @@
   stage.addEventListener('pointerdown',e=>{touch={x:e.clientX,y:e.clientY};});
   stage.addEventListener('pointerup',e=>{if(e.pointerType==='touch'&&Math.abs(e.clientX-touch.x)>65&&Math.abs(e.clientY-touch.y)<45)go(index+(e.clientX<touch.x?1:-1));});
   window.addEventListener('resize',draw);
-  document.fonts.ready.then(draw);
   draw();
+  document.fonts.ready.then(() => {
+    draw();
+    requestAnimationFrame(() => stage.classList.remove('is-initializing'));
+  });
 })();

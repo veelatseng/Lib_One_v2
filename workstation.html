@@ -3,17 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>館員工作站｜Workstation｜Lib One</title>
+    <title>館員工作站｜雙螢幕 RFID 借還作業｜Lib One</title>
     <meta
       name="description"
-      content="Lib One 館員工作站：雙螢幕館員工作站，整合館員作業與讀者借閱資訊。RFID 感應板、條碼掃描與流通系統依館員工作順序配置，多本辨識、借還與安全狀態可在同一位置完成。雙螢幕讓館員與讀者同步查看借閱資訊。"
+      content="Lib One 館員工作站以雙螢幕整合館員操作與讀者借閱資訊，支援 RFID 多本辨識、條碼處理、借還續借及館藏安全狀態管理，適用於圖書館流通櫃台與館員服務台。"
     />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/workstation" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="Lib One" />
+    <meta property="og:title" content="館員工作站｜雙螢幕 RFID 借還作業｜Lib One" />
+    <meta property="og:description" content="Lib One 館員工作站以雙螢幕整合館員操作與讀者借閱資訊，支援 RFID 多本辨識、條碼處理、借還續借及館藏安全狀態管理，適用於圖書館流通櫃台與館員服務台。" />
+    <meta property="og:url" content="https://lib-one.com/workstation" />
+    <meta property="og:image" content="https://lib-one.com/assets/products/Workstation/img/hero-product.optimized.webp" />
+    <meta property="og:image:alt" content="館員工作站產品圖" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="館員工作站｜雙螢幕 RFID 借還作業｜Lib One" />
+    <meta name="twitter:description" content="Lib One 館員工作站以雙螢幕整合館員操作與讀者借閱資訊，支援 RFID 多本辨識、條碼處理、借還續借及館藏安全狀態管理，適用於圖書館流通櫃台與館員服務台。" />
+    <meta name="twitter:image" content="https://lib-one.com/assets/products/Workstation/img/hero-product.optimized.webp" />
+    <meta name="twitter:image:alt" content="館員工作站產品圖" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/icons.css" />
@@ -24,6 +41,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": "https://lib-one.com/workstation#product",
+        "url": "https://lib-one.com/workstation",
         "name": "館員工作站",
         "alternateName": "Workstation",
         "brand": {
@@ -31,14 +50,14 @@
           "name": "Lib One"
         },
         "description": "RFID 感應板、條碼掃描與流通系統依館員工作順序配置，多本辨識、借還與安全狀態可在同一位置完成。雙螢幕讓館員與讀者同步查看借閱資訊。",
-        "image": "assets/products/Workstation/img/hero-product.png",
+        "image": "https://lib-one.com/assets/products/Workstation/img/hero-product.optimized.webp",
         "category": "館務作業",
-        "featureList": [
-          "借還、續借與帳戶作業",
-          "支援 RFID 與條碼辨識",
-          "雙螢幕整合於機身，無需外接",
-          "支援館務相關周邊裝置",
-          "精巧機身減少桌面占用"
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "產品特色", "value": "借還、續借與帳戶作業" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "支援 RFID 與條碼辨識" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "雙螢幕整合於機身，無需外接" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "支援館務相關周邊裝置" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "精巧機身減少桌面占用" }
         ]
       }
     </script>
@@ -46,7 +65,7 @@
   <body class="product-page" data-product-id="workstation">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Lib One 首頁">
-        <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
+        <img height="106" width="397" src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
         <a href="index.html#scene-entry">出入館</a>
@@ -274,8 +293,8 @@
             </div>
           </div>
           <figure class="product-hero-visual">
-            <img
-              src="assets/products/Workstation/img/hero-product.png"
+            <img fetchpriority="high" height="1164" width="1351"
+              src="assets/products/Workstation/img/hero-product.optimized.webp"
               alt="Lib One 館員工作站產品圖"
             />
           </figure>
@@ -290,35 +309,35 @@
         <ul class="feature-list">
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Workstation/icon/01.svg" alt="" />
+              <img height="18" width="20" src="assets/products/Workstation/icon/01.svg" alt="" />
             </div>
             <span>01</span>
             <h3>借還、續借與帳戶作業</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Workstation/icon/02.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Workstation/icon/02.svg" alt="" />
             </div>
             <span>02</span>
             <h3>支援 RFID 與條碼辨識</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Workstation/icon/03.svg" alt="" />
+              <img height="22" width="22" src="assets/products/Workstation/icon/03.svg" alt="" />
             </div>
             <span>03</span>
             <h3>雙螢幕整合於機身，無需外接</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Workstation/icon/04.svg" alt="" />
+              <img height="21" width="21" src="assets/products/Workstation/icon/04.svg" alt="" />
             </div>
             <span>04</span>
             <h3>支援館務相關周邊裝置</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Workstation/icon/05.svg" alt="" />
+              <img height="11" width="22" src="assets/products/Workstation/icon/05.svg" alt="" />
             </div>
             <span>05</span>
             <h3>精巧機身減少桌面占用</h3>
@@ -390,7 +409,7 @@
         </div>
         <div class="gallery-pair gallery-pair-equal">
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="1601" width="2560"
               src="assets/products/Workstation/img/3D02-no-cameras.webp"
               alt="館員工作站設備圖"
               loading="lazy"
@@ -398,7 +417,7 @@
             <figcaption>雙螢幕整合於機身</figcaption>
           </figure>
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="1599" width="2560"
               src="assets/products/Workstation/img/3D03-no-cameras.webp"
               alt="館員工作站設備圖"
               loading="lazy"
@@ -423,7 +442,7 @@
               ><span lang="en">RFID Workstation</span></span
             >
             <figure>
-              <img
+              <img height="902" width="1744"
                 src="assets/products/RFID%20Workstation/img/hero-product.png"
                 alt="RFID工作站產品圖"
                 loading="lazy"
@@ -436,7 +455,7 @@
               ><span lang="en">Self-Service Kiosk</span></span
             >
             <figure>
-              <img
+              <img height="2560" width="1920"
                 src="assets/products/self-service-kiosk/img/hero-product.webp"
                 alt="直立式自助借還書機產品圖"
                 loading="lazy"
@@ -449,7 +468,7 @@
               ><span lang="en">Access Gate</span></span
             >
             <figure>
-              <img
+              <img height="800" width="800"
                 src="assets/products/Access%20Gate/img/hero-product.png"
                 alt="智慧閘門產品圖"
                 loading="lazy"
@@ -463,7 +482,7 @@
     <footer class="site-footer">
       <div class="footer-brand">
         <a href="index.html"
-          ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
+          ><img height="106" width="397" src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>
         <p>凌網資訊全新智慧圖書館品牌</p>

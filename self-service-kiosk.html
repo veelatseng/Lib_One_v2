@@ -3,17 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>直立式自助借還書機｜Self-Service Kiosk｜Lib One</title>
+    <title>直立式自助借還書機｜RFID 圖書館設備｜Lib One</title>
     <meta
       name="description"
-      content="Lib One 直立式自助借還書機以無障礙操作為核心，支援讀者自助借還書與 RFID 多本辨識；模組化機身採鋁合金及 SECC 電鍍鋅鋼板，便於現場檢修。"
+      content="Lib One 直立式自助借還書機支援 RFID 多本辨識、借還續借與讀者帳戶查詢，提供多語及語音指引，並可透過 SIP2／API 介接 HyLib，兼顧不同身高與輪椅使用者的操作需求。"
     />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/self-service-kiosk" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="Lib One" />
+    <meta property="og:title" content="直立式自助借還書機｜RFID 圖書館設備｜Lib One" />
+    <meta property="og:description" content="Lib One 直立式自助借還書機支援 RFID 多本辨識、借還續借與讀者帳戶查詢，提供多語及語音指引，並可透過 SIP2／API 介接 HyLib，兼顧不同身高與輪椅使用者的操作需求。" />
+    <meta property="og:url" content="https://lib-one.com/self-service-kiosk" />
+    <meta property="og:image" content="https://lib-one.com/assets/products/self-service-kiosk/img/hero-product-with-table-black-screen.optimized.webp" />
+    <meta property="og:image:alt" content="直立式自助借還書機產品圖" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="直立式自助借還書機｜RFID 圖書館設備｜Lib One" />
+    <meta name="twitter:description" content="Lib One 直立式自助借還書機支援 RFID 多本辨識、借還續借與讀者帳戶查詢，提供多語及語音指引，並可透過 SIP2／API 介接 HyLib，兼顧不同身高與輪椅使用者的操作需求。" />
+    <meta name="twitter:image" content="https://lib-one.com/assets/products/self-service-kiosk/img/hero-product-with-table-black-screen.optimized.webp" />
+    <meta name="twitter:image:alt" content="直立式自助借還書機產品圖" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/product.css?v=20261014-kiosk-size-black-screen" />
     <link rel="stylesheet" href="css/icons.css" />
@@ -24,18 +41,20 @@
       {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": "https://lib-one.com/self-service-kiosk#product",
+        "url": "https://lib-one.com/self-service-kiosk",
         "name": "直立式自助借還書機",
         "alternateName": "Self-Service Kiosk",
         "brand": { "@type": "Brand", "name": "Lib One" },
         "description": "以無障礙操作為導向的直立式自助借還書機，搭配高度可調的旋轉螢幕支架與模組化機身，因應不同身高、站姿及輪椅使用者的操作需求。系統可同時感應多本 RFID 館藏。模組化架構便於零件更換與現場檢修。機體結構底材採用鋁合金及 SECC 電鍍鋅鋼板，外層工業級烤漆雙重阻絕防護。",
-        "image": "assets/products/self-service-kiosk/img/hero-product-with-table-black-screen.webp",
+        "image": "https://lib-one.com/assets/products/self-service-kiosk/img/hero-product-with-table-black-screen.optimized.webp",
         "category": "借還書",
-        "featureList": [
-          "自助借書、還書與續借",
-          "RFID 多本同時辨識",
-          "讀者帳戶即時查詢",
-          "多語與語音操作指引",
-          "電子／紙本收據與遠端管理"
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "產品特色", "value": "自助借書、還書與續借" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "RFID 多本同時辨識" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "讀者帳戶即時查詢" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "多語與語音操作指引" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "電子／紙本收據與遠端管理" }
         ]
       }
     </script>
@@ -43,7 +62,7 @@
   <body class="product-page" data-product-id="self-service-kiosk">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Lib One 首頁">
-        <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
+        <img height="106" width="397" src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
         <a href="index.html#scene-entry">出入館</a>
@@ -273,8 +292,8 @@
             </div>
           </div>
           <figure class="product-hero-visual">
-            <img
-              src="assets/products/self-service-kiosk/img/hero-product-with-table-black-screen.webp"
+            <img fetchpriority="high" height="1100" width="1430"
+              src="assets/products/self-service-kiosk/img/hero-product-with-table-black-screen.optimized.webp"
               alt="Lib One 直立式自助借還書機，後方白色桌上疊放四本書"
             />
           </figure>
@@ -289,7 +308,7 @@
         <ul class="feature-list">
           <li class="feature-item">
             <div class="feature-icon">
-              <img
+              <img height="21" width="22"
                 src="assets/products/self-service-kiosk/icon/01.svg"
                 alt=""
               />
@@ -299,7 +318,7 @@
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img
+              <img height="22" width="22"
                 src="assets/products/self-service-kiosk/icon/02.svg"
                 alt=""
               />
@@ -309,7 +328,7 @@
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img
+              <img height="21" width="21"
                 src="assets/products/self-service-kiosk/icon/03.svg"
                 alt=""
               />
@@ -319,7 +338,7 @@
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img
+              <img height="20" width="22"
                 src="assets/products/self-service-kiosk/icon/04.svg"
                 alt=""
               />
@@ -329,7 +348,7 @@
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img
+              <img height="22" width="22"
                 src="assets/products/self-service-kiosk/icon/05.svg"
                 alt=""
               />
@@ -370,7 +389,7 @@
                 </div>
                 <div>
                   <dt>顯示</dt>
-                  <dd>觸控螢幕與工業級電腦，桌上型或落地型外觀可選。</dd>
+                  <dd>觸控螢幕與工業級電腦，採直立式機身配置。</dd>
                 </div>
                 <div>
                   <dt>辨識</dt>
@@ -416,7 +435,7 @@
         </div>
         <div class="gallery-lead">
           <figure class="gallery-card gallery-photo">
-            <img
+            <img height="941" width="1672"
               src="assets/products/self-service-kiosk/img/Real01.webp"
               alt="直立式自助借還書機模擬使用情境"
               loading="lazy"
@@ -425,7 +444,7 @@
           </figure>
           <div class="gallery-lead-stack">
             <figure class="gallery-card gallery-photo">
-              <img
+              <img height="941" width="1672"
                 src="assets/products/self-service-kiosk/img/Real02.webp"
                 alt="直立式自助借還書機模擬使用情境"
                 loading="lazy"
@@ -433,7 +452,7 @@
               <figcaption>模擬使用情境</figcaption>
             </figure>
             <figure class="gallery-card gallery-photo">
-              <img
+              <img height="941" width="1672"
                 src="assets/products/self-service-kiosk/img/Real03.webp"
                 alt="直立式自助借還書機模擬使用情境"
                 loading="lazy"
@@ -444,7 +463,7 @@
         </div>
         <div class="gallery-pair gallery-pair-wide-right">
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="1440" width="2560"
               src="assets/products/self-service-kiosk/img/3D02.webp"
               alt="直立式自助借還書機設備圖"
               loading="lazy"
@@ -452,7 +471,7 @@
             <figcaption>電子或紙本收據</figcaption>
           </figure>
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="1440" width="2560"
               src="assets/products/self-service-kiosk/img/3D03.webp"
               alt="直立式自助借還書機設備圖"
               loading="lazy"
@@ -462,7 +481,7 @@
         </div>
         <div class="gallery-pair gallery-pair-wide-left">
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="1441" width="2560"
               src="assets/products/self-service-kiosk/img/3D04.webp"
               alt="直立式自助借還書機設備圖"
               loading="lazy"
@@ -470,7 +489,7 @@
             <figcaption>美背設計</figcaption>
           </figure>
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="1440" width="2560"
               src="assets/products/self-service-kiosk/img/3D07.webp"
               alt="直立式自助借還書機設備圖"
               loading="lazy"
@@ -496,29 +515,29 @@
         </div>
         <div class="interface-gallery" aria-label="LibOne Self 借書介面畫面">
           <figure class="interface-screen">
-            <img
-              src="assets/products/libone-self-interface/img/ui01.webp"
+            <img height="1920" width="1080"
+              src="assets/products/libone-self-interface/img/ui01.optimized.webp"
               alt="LibOne Self 借還書服務首頁介面"
               loading="lazy"
             />
           </figure>
           <figure class="interface-screen">
-            <img
-              src="assets/products/libone-self-interface/img/ui02.webp"
+            <img height="1920" width="1080"
+              src="assets/products/libone-self-interface/img/ui02.optimized.webp"
               alt="LibOne Self 借書、還書與個人資訊功能選單"
               loading="lazy"
             />
           </figure>
           <figure class="interface-screen">
-            <img
-              src="assets/products/libone-self-interface/img/ui03.webp"
+            <img height="1920" width="1080"
+              src="assets/products/libone-self-interface/img/ui03.optimized.webp"
               alt="LibOne Self RFID 書本感應操作介面"
               loading="lazy"
             />
           </figure>
           <figure class="interface-screen">
-            <img
-              src="assets/products/libone-self-interface/img/ui04.png"
+            <img height="1920" width="1080"
+              src="assets/products/libone-self-interface/img/ui04.optimized.webp"
               alt="LibOne Self 已預約書籍清單介面"
               loading="lazy"
             />
@@ -541,8 +560,8 @@
               ><span lang="en">Desktop Self-Service Kiosk</span></span
             >
             <figure>
-              <img
-                src="assets/products/desktop-self-service-kiosk/img/hero-product-no-cameras.webp"
+              <img height="1448" width="1085"
+                src="assets/products/desktop-self-service-kiosk/img/hero-product-no-cameras.optimized.webp"
                 alt="桌上型自助借還書機產品圖"
                 loading="lazy"
               />
@@ -554,8 +573,8 @@
               ><span lang="en">Smart Reserved Book Pickup Locker</span></span
             >
             <figure>
-              <img
-                src="assets/products/Smart%20Reserved%20Book%20Pickup%20Locker/img/hero-product.png"
+              <img height="679" width="1019"
+                src="assets/products/Smart%20Reserved%20Book%20Pickup%20Locker/img/hero-product.optimized.webp"
                 alt="智慧預約取書櫃產品圖"
                 loading="lazy"
               />
@@ -567,8 +586,8 @@
               ><span lang="en">Workstation</span></span
             >
             <figure>
-              <img
-                src="assets/products/Workstation/img/hero-product.png"
+              <img height="1164" width="1351"
+                src="assets/products/Workstation/img/hero-product.optimized.webp"
                 alt="館員工作站產品圖"
                 loading="lazy"
               />
@@ -581,7 +600,7 @@
     <footer class="site-footer">
       <div class="footer-brand">
         <a href="index.html"
-          ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
+          ><img height="106" width="397" src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>
         <p>凌網資訊全新智慧圖書館品牌</p>

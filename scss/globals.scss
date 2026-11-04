@@ -3,7 +3,8 @@
 @each $weight in $font-weights {
   @font-face {
     font-family: $font-family-primary;
-    src: url("#{$font-path}/poppins-#{$weight}.ttf");
+    src: url("#{$font-path}/poppins-#{$weight}.woff2") format("woff2"),
+      url("#{$font-path}/poppins-#{$weight}.ttf") format("truetype");
     font-weight: $weight;
     font-display: swap;
   }
@@ -37,6 +38,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -204,7 +206,7 @@ a {
     &:hover,
     &:focus-visible {
       background: $color-surface-soft;
-      color: $color-green;
+      color: $color-green-text;
       outline: none;
     }
   }
@@ -331,7 +333,7 @@ a {
 
       &:hover span,
       &[aria-current="page"] span {
-        color: $color-green;
+        color: $color-green-text;
       }
     }
 
@@ -355,7 +357,7 @@ a {
   text-decoration: none;
 
   small {
-    color: $color-green;
+    color: $color-green-text;
     font-size: 22px;
     font-weight: 600;
   }

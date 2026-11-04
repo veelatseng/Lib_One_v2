@@ -3,17 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Lib One｜智慧圖書館設備旅程</title>
+    <title>Lib One｜智慧圖書館設備與 RFID 整合方案</title>
     <meta
       name="description"
-      content="Lib One 提供智慧圖書館設備與整合服務，涵蓋出入館、借還書、空間設備服務及館務作業，打造一致且無障礙的圖書館使用體驗。"
+      content="Lib One 提供智慧圖書館設備與整合服務，涵蓋 RFID 借還書、出入館管理、座位預約及館務作業，協助公共圖書館與大專校院規劃自助服務及系統整合。"
     />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="Lib One" />
+    <meta property="og:title" content="Lib One｜智慧圖書館設備與 RFID 整合方案" />
+    <meta property="og:description" content="Lib One 提供智慧圖書館設備與整合服務，涵蓋 RFID 借還書、出入館管理、座位預約及館務作業，協助公共圖書館與大專校院規劃自助服務及系統整合。" />
+    <meta property="og:url" content="https://lib-one.com/" />
+    <meta property="og:image" content="https://lib-one.com/assets/hero-layers/backgrounds/library.webp" />
+    <meta property="og:image:alt" content="Lib One 智慧圖書館場景" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Lib One｜智慧圖書館設備與 RFID 整合方案" />
+    <meta name="twitter:description" content="Lib One 提供智慧圖書館設備與整合服務，涵蓋 RFID 借還書、出入館管理、座位預約及館務作業，協助公共圖書館與大專校院規劃自助服務及系統整合。" />
+    <meta name="twitter:image" content="https://lib-one.com/assets/hero-layers/backgrounds/library.webp" />
+    <meta name="twitter:image:alt" content="Lib One 智慧圖書館場景" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/home.css" />
     <script defer src="js/data.js"></script>
@@ -26,21 +43,23 @@
         "@graph": [
           {
             "@type": "Organization",
-            "@id": "#organization",
+            "url": "https://lib-one.com/",
+            "@id": "https://lib-one.com/#organization",
             "name": "Lib One",
             "alternateName": "凌網資訊智慧圖書館品牌",
             "legalName": "凌網資訊股份有限公司",
             "email": "service@hyweb.com.tw",
             "telephone": "+886-3-560-1296",
-            "logo": "assets/brand/lib-one-logo.svg"
+            "logo": "https://lib-one.com/assets/brand/lib-one-logo.svg"
           },
           {
             "@type": "WebSite",
-            "@id": "#website",
+            "url": "https://lib-one.com/",
+            "@id": "https://lib-one.com/#website",
             "name": "Lib One 智慧圖書館設備旅程",
             "description": "涵蓋出入館、借還書、空間設備服務與館務作業的智慧圖書館設備與整合服務。",
             "inLanguage": "zh-Hant",
-            "publisher": { "@id": "#organization" }
+            "publisher": { "@id": "https://lib-one.com/#organization" }
           }
         ]
       }
@@ -49,7 +68,7 @@
   <body>
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Lib One 首頁">
-        <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
+        <img height="106" width="397" src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
         <a href="index.html#scene-entry">出入館</a>
@@ -261,8 +280,8 @@
     </div>
     <main>
       <section class="lh-hero" aria-labelledby="hero-title">
-        <img
-          class="lh-background"
+        <img height="724" width="2172"
+          class="lh-background" fetchpriority="high"
           src="assets/hero-layers/backgrounds/library.webp"
           alt=""
           aria-hidden="true"
@@ -327,9 +346,9 @@
                 "
               >
                 <div class="lh-artwork" style="transform-origin: 269px 427px">
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer illustration"
-                    src="assets/hero-layers/entry/product-illustration.png"
+                    src="assets/hero-layers/entry/product-illustration.optimized.webp"
                     style="
                       left: 70px;
                       top: 185px;
@@ -339,9 +358,9 @@
                     "
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer illustration"
-                    src="assets/hero-layers/entry/product-illustration.png"
+                    src="assets/hero-layers/entry/product-illustration.optimized.webp"
                     style="
                       left: 70px;
                       top: 185px;
@@ -351,9 +370,9 @@
                     "
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer real"
-                    src="assets/hero-layers/entry/product-3d.png"
+                    src="assets/hero-layers/entry/product-3d.optimized.webp"
                     style="
                       left: 70px;
                       top: 185px;
@@ -363,9 +382,9 @@
                     "
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer real"
-                    src="assets/hero-layers/entry/product-3d.png"
+                    src="assets/hero-layers/entry/product-3d.optimized.webp"
                     style="
                       left: 70px;
                       top: 185px;
@@ -375,9 +394,9 @@
                     "
                     alt=""
                   />
-                  <img
+                  <img height="1536" width="1024"
                     class="lh-layer plain"
-                    src="assets/hero-layers/entry/person.png"
+                    src="assets/hero-layers/entry/person.optimized.webp"
                     style="left: 130px; top: 45px; width: 269px; z-index: 7"
                     alt=""
                   />
@@ -412,27 +431,27 @@
                 "
               >
                 <div class="lh-artwork" style="transform-origin: 353px 450px">
-                  <img
+                  <img height="1374" width="1145"
                     class="lh-layer illustration"
-                    src="assets/hero-layers/wheelchair/product-illustration.png"
+                    src="assets/hero-layers/wheelchair/product-illustration.optimized.webp"
                     style="left: 305px; top: 198px; width: 215px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1374" width="1145"
                     class="lh-layer real"
-                    src="assets/hero-layers/wheelchair/product-3d.png"
+                    src="assets/hero-layers/wheelchair/product-3d.optimized.webp"
                     style="left: 305px; top: 198px; width: 215px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1334" width="1179"
                     class="lh-layer plain"
-                    src="assets/hero-layers/wheelchair/person.png"
+                    src="assets/hero-layers/wheelchair/person.optimized.webp"
                     style="left: 139px; top: 150px; width: 286px; z-index: 7"
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer plain"
-                    src="assets/hero-layers/child/book.png"
+                    src="assets/hero-layers/child/book.optimized.webp"
                     style="left: 408px; top: 292px; width: 65px; z-index: 6"
                     alt=""
                   />
@@ -471,9 +490,9 @@
                 "
               >
                 <div class="lh-artwork" style="transform-origin: 293px 450px">
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer plain"
-                    src="assets/hero-layers/child/cabinet.png"
+                    src="assets/hero-layers/child/cabinet.optimized.webp"
                     style="
                       left: 100.75px;
                       top: 246.3px;
@@ -483,27 +502,27 @@
                     "
                     alt=""
                   />
-                  <img
+                  <img height="1254" width="1254"
                     class="lh-layer illustration"
-                    src="assets/hero-layers/child/product-illustration.png"
+                    src="assets/hero-layers/child/product-illustration.optimized.webp"
                     style="left: 223px; top: 169px; width: 142px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1254" width="1254"
                     class="lh-layer real"
-                    src="assets/hero-layers/child/product-3d.png"
+                    src="assets/hero-layers/child/product-3d.optimized.webp"
                     style="left: 223px; top: 169px; width: 142px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer plain"
-                    src="assets/hero-layers/child/book.png"
+                    src="assets/hero-layers/child/book.optimized.webp"
                     style="left: 287px; top: 282px; width: 48px; z-index: 6"
                     alt=""
                   />
-                  <img
+                  <img height="1536" width="1024"
                     class="lh-layer plain"
-                    src="assets/hero-layers/child/person.png"
+                    src="assets/hero-layers/child/person.optimized.webp"
                     style="
                       left: 269.05px;
                       top: 180.85px;
@@ -547,21 +566,21 @@
                 "
               >
                 <div class="lh-artwork" style="transform-origin: 324px 445px">
-                  <img
+                  <img height="1536" width="1024"
                     class="lh-layer illustration"
-                    src="assets/hero-layers/space/product-illustration.png"
+                    src="assets/hero-layers/space/product-illustration.optimized.webp"
                     style="left: 310px; top: 160px; width: 199px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1536" width="1024"
                     class="lh-layer real"
-                    src="assets/hero-layers/space/product-3d.png"
+                    src="assets/hero-layers/space/product-3d.optimized.webp"
                     style="left: 310px; top: 160px; width: 199px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1536" width="1024"
                     class="lh-layer plain"
-                    src="assets/hero-layers/space/person.png"
+                    src="assets/hero-layers/space/person.optimized.webp"
                     style="left: 155px; top: 78px; width: 250px; z-index: 7"
                     alt=""
                   />
@@ -600,27 +619,27 @@
                 "
               >
                 <div class="lh-artwork" style="transform-origin: 312px 481px">
-                  <img
+                  <img height="1536" width="1024"
                     class="lh-layer plain"
-                    src="assets/hero-layers/staff/person.png"
+                    src="assets/hero-layers/staff/person.optimized.webp"
                     style="left: 310px; top: 171px; width: 200px; z-index: 1"
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer plain"
-                    src="assets/hero-layers/staff/desk.png"
+                    src="assets/hero-layers/staff/desk.optimized.webp"
                     style="left: 90px; top: 218px; width: 445px; z-index: 2"
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer illustration"
-                    src="assets/hero-layers/staff/product-illustration.png"
+                    src="assets/hero-layers/staff/product-illustration.optimized.webp"
                     style="left: 150px; top: 205px; width: 220px; z-index: 3"
                     alt=""
                   />
-                  <img
+                  <img height="1024" width="1536"
                     class="lh-layer real"
-                    src="assets/hero-layers/staff/product-3d.png"
+                    src="assets/hero-layers/staff/product-3d.optimized.webp"
                     style="left: 150px; top: 205px; width: 220px; z-index: 3"
                     alt=""
                   />
@@ -704,8 +723,8 @@
           <div class="site-products">
             <a class="site-product" href="access-gate.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Access%20Gate/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Access%20Gate/img/overview-product.optimized.webp"
                   alt="Access Gate 智慧閘門產品圖"
                   loading="lazy"
                 />
@@ -741,8 +760,8 @@
             </a>
             <a class="site-product" href="smart-checkout-gate.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Smart%20Checkout%20Gate/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Smart%20Checkout%20Gate/img/overview-product.optimized.webp"
                   alt="Smart Checkout Gate 智慧借閱通關系統產品圖"
                   loading="lazy"
                 />
@@ -790,8 +809,8 @@
           <div class="site-products">
             <a class="site-product" href="self-service-kiosk.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/self-service-kiosk/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/self-service-kiosk/img/overview-product.optimized.webp"
                   alt="Self-Service Kiosk 直立式自助借還書機產品圖"
                   loading="lazy"
                 />
@@ -827,8 +846,8 @@
             </a>
             <a class="site-product" href="desktop-self-service-kiosk.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/desktop-self-service-kiosk/img/overview-product-no-cameras.webp"
+                <img height="800" width="800"
+                  src="assets/products/desktop-self-service-kiosk/img/overview-product-no-cameras.optimized.webp"
                   alt="Desktop Self-Service Kiosk 桌上型自助借還書機產品圖"
                   loading="lazy"
                 />
@@ -866,8 +885,8 @@
               class="site-product"
               href="smart-reserved-book-pickup-locker.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Smart%20Reserved%20Book%20Pickup%20Locker/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Smart%20Reserved%20Book%20Pickup%20Locker/img/overview-product.optimized.webp"
                   alt="Smart Reserved Book Pickup Locker 智慧預約取書櫃產品圖"
                   loading="lazy"
                 />
@@ -905,8 +924,8 @@
               class="site-product"
               href="hypass-self-service-registration-kiosk.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/hypass-self-service-registration-kiosk/img/overview-product-black-screen.webp"
+                <img height="1493" width="1054"
+                  src="assets/products/hypass-self-service-registration-kiosk/img/overview-product-black-screen.optimized.webp"
                   alt="HyPass Self-Service Registration Kiosk 圖書館智慧辦證服務站產品圖"
                   loading="lazy"
                 />
@@ -954,8 +973,8 @@
           <div class="site-products">
             <a class="site-product" href="space-kiosk.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Space%20Kiosk/img/overview-product-no-cameras.webp"
+                <img height="800" width="800"
+                  src="assets/products/Space%20Kiosk/img/overview-product-no-cameras.optimized.webp"
                   alt="Space Kiosk 直立式空間座位預約機產品圖"
                   loading="lazy"
                 />
@@ -991,8 +1010,8 @@
             </a>
             <a class="site-product" href="desktop-space-kiosk.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Desktop%20Space%20Kiosk/img/overview-product-no-cameras.webp"
+                <img height="800" width="800"
+                  src="assets/products/Desktop%20Space%20Kiosk/img/overview-product-no-cameras.optimized.webp"
                   alt="Desktop Space Kiosk 桌上型空間座位預約機產品圖"
                   loading="lazy"
                 />
@@ -1028,8 +1047,8 @@
             </a>
             <a class="site-product" href="display.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Display/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Display/img/overview-product.optimized.webp"
                   alt="Display 電子紙／數位資訊顯示設備產品圖"
                   loading="lazy"
                 />
@@ -1065,8 +1084,8 @@
             </a>
             <a class="site-product" href="hyread-kiosk.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Hyread%20Kiosk/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Hyread%20Kiosk/img/overview-product.optimized.webp"
                   alt="HyRead Kiosk HyRead 行動圖書館產品圖"
                   loading="lazy"
                 />
@@ -1104,8 +1123,8 @@
               class="site-product"
               href="multifunction-device-charging-cabinet.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Charging%20Cabinet/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Charging%20Cabinet/img/overview-product.optimized.webp"
                   alt="Multifunction Device Charging Cabinet 多功能設備充電櫃產品圖"
                   loading="lazy"
                 />
@@ -1154,8 +1173,8 @@
           <div class="site-products">
             <a class="site-product" href="workstation.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/Workstation/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/Workstation/img/overview-product.optimized.webp"
                   alt="Workstation 館員工作站產品圖"
                   loading="lazy"
                 />
@@ -1191,8 +1210,8 @@
             </a>
             <a class="site-product" href="rfid-workstation.html"
               ><figure class="site-product-visual">
-                <img
-                  src="assets/products/RFID%20Workstation/img/overview-product.png"
+                <img height="800" width="800"
+                  src="assets/products/RFID%20Workstation/img/overview-product.optimized.webp"
                   alt="RFID Workstation RFID工作站產品圖"
                   loading="lazy"
                 />
@@ -1296,7 +1315,7 @@
     <footer class="site-footer">
       <div class="footer-brand">
         <a href="index.html">
-          <img src="assets/brand/lib-one-logo2.svg" alt="Lib One" />
+          <img height="106" width="397" src="assets/brand/lib-one-logo2.svg" alt="Lib One" />
         </a>
         <p>One Library · One Platform · One Experience</p>
         <p>凌網資訊全新智慧圖書館品牌</p>

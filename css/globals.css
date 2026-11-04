@@ -1,18 +1,18 @@
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/hero-layers/fonts/poppins-400.ttf");
+  src: url("../assets/hero-layers/fonts/poppins-400.woff2") format("woff2"), url("../assets/hero-layers/fonts/poppins-400.ttf") format("truetype");
   font-weight: 400;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/hero-layers/fonts/poppins-600.ttf");
+  src: url("../assets/hero-layers/fonts/poppins-600.woff2") format("woff2"), url("../assets/hero-layers/fonts/poppins-600.ttf") format("truetype");
   font-weight: 600;
   font-display: swap;
 }
 @font-face {
   font-family: "Poppins";
-  src: url("../assets/hero-layers/fonts/poppins-700.ttf");
+  src: url("../assets/hero-layers/fonts/poppins-700.woff2") format("woff2"), url("../assets/hero-layers/fonts/poppins-700.ttf") format("truetype");
   font-weight: 700;
   font-display: swap;
 }
@@ -45,6 +45,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 a {
@@ -257,7 +258,7 @@ a {
 }
 .header-dropdown a:hover, .header-dropdown a:focus-visible {
   background: #f0f6ee;
-  color: #168f68;
+  color: #137f5c;
   outline: none;
 }
 .header-dropdown small {
@@ -404,7 +405,7 @@ a {
   text-decoration: none;
 }
 .menu-group li a:hover span, .menu-group li a[aria-current=page] span {
-  color: #168f68;
+  color: #137f5c;
 }
 .menu-group li span {
   font-size: 15px;
@@ -428,7 +429,7 @@ a {
   text-decoration: none;
 }
 .menu-scene-link small {
-  color: #168f68;
+  color: #137f5c;
   font-size: 22px;
   font-weight: 600;
 }

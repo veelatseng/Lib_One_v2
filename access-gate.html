@@ -3,17 +3,34 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>智慧閘門｜Access Gate｜Lib One</title>
+    <title>智慧閘門｜圖書館門禁與通行管理｜Lib One</title>
     <meta
       name="description"
-      content="Lib One 智慧閘門：圖書館入口的身分驗證與通行管理。簡潔的閘體整合多種讀卡辨識、人流判斷與安全感測。可依場地規劃單通道、多通道或無障礙通道。"
+      content="Lib One 智慧閘門整合讀者身分驗證、進出方向判斷與人流統計，提供防夾、防尾隨及緊急開門功能，可依圖書館場域配置標準或無障礙通道，並介接門禁與訪客系統。"
     />
     <meta
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/access-gate" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_TW" />
+    <meta property="og:site_name" content="Lib One" />
+    <meta property="og:title" content="智慧閘門｜圖書館門禁與通行管理｜Lib One" />
+    <meta property="og:description" content="Lib One 智慧閘門整合讀者身分驗證、進出方向判斷與人流統計，提供防夾、防尾隨及緊急開門功能，可依圖書館場域配置標準或無障礙通道，並介接門禁與訪客系統。" />
+    <meta property="og:url" content="https://lib-one.com/access-gate" />
+    <meta property="og:image" content="https://lib-one.com/assets/products/Access%20Gate/img/hero-product.png" />
+    <meta property="og:image:alt" content="智慧閘門產品圖" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="智慧閘門｜圖書館門禁與通行管理｜Lib One" />
+    <meta name="twitter:description" content="Lib One 智慧閘門整合讀者身分驗證、進出方向判斷與人流統計，提供防夾、防尾隨及緊急開門功能，可依圖書館場域配置標準或無障礙通道，並介接門禁與訪客系統。" />
+    <meta name="twitter:image" content="https://lib-one.com/assets/products/Access%20Gate/img/hero-product.png" />
+    <meta name="twitter:image:alt" content="智慧閘門產品圖" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-600.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="assets/hero-layers/fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="css/globals.css" />
     <link rel="stylesheet" href="css/product.css" />
     <link rel="stylesheet" href="css/icons.css" />
@@ -24,6 +41,8 @@
       {
         "@context": "https://schema.org",
         "@type": "Product",
+        "@id": "https://lib-one.com/access-gate#product",
+        "url": "https://lib-one.com/access-gate",
         "name": "智慧閘門",
         "alternateName": "Access Gate",
         "brand": {
@@ -31,14 +50,14 @@
           "name": "Lib One"
         },
         "description": "簡潔的閘體整合多種讀卡辨識、人流判斷與安全感測。可依場地規劃單通道、多通道或無障礙通道。",
-        "image": "assets/products/Access%20Gate/img/hero-product.png",
+        "image": "https://lib-one.com/assets/products/Access%20Gate/img/hero-product.png",
         "category": "出入館",
-        "featureList": [
-          "多元讀者身分驗證",
-          "快速進出與無障礙通行",
-          "進出方向與人流統計",
-          "防夾、防尾隨與緊急開門",
-          "可整合 HyLib、門禁與訪客系統"
+        "additionalProperty": [
+          { "@type": "PropertyValue", "name": "產品特色", "value": "多元讀者身分驗證" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "快速進出與無障礙通行" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "進出方向與人流統計" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "防夾、防尾隨與緊急開門" },
+          { "@type": "PropertyValue", "name": "產品特色", "value": "可整合 HyLib、門禁與訪客系統" }
         ]
       }
     </script>
@@ -46,7 +65,7 @@
   <body class="product-page" data-product-id="access-gate">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Lib One 首頁">
-        <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
+        <img height="106" width="397" src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
         <a href="index.html#scene-entry">出入館</a>
@@ -274,7 +293,7 @@
             </div>
           </div>
           <figure class="product-hero-visual">
-            <img
+            <img fetchpriority="high" height="800" width="800"
               src="assets/products/Access%20Gate/img/hero-product.png"
               alt="Lib One 智慧閘門產品圖"
             />
@@ -290,35 +309,35 @@
         <ul class="feature-list">
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Access%20Gate/icon/01.svg" alt="" />
+              <img height="20" width="24" src="assets/products/Access%20Gate/icon/01.svg" alt="" />
             </div>
             <span>01</span>
             <h3>多元讀者身分驗證</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Access%20Gate/icon/02.svg" alt="" />
+              <img height="23" width="23" src="assets/products/Access%20Gate/icon/02.svg" alt="" />
             </div>
             <span>02</span>
             <h3>快速進出與無障礙通行</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Access%20Gate/icon/03.svg" alt="" />
+              <img height="22" width="23" src="assets/products/Access%20Gate/icon/03.svg" alt="" />
             </div>
             <span>03</span>
             <h3>進出方向與人流統計</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Access%20Gate/icon/04.svg" alt="" />
+              <img height="21" width="21" src="assets/products/Access%20Gate/icon/04.svg" alt="" />
             </div>
             <span>04</span>
             <h3>防夾、防尾隨與緊急開門</h3>
           </li>
           <li class="feature-item">
             <div class="feature-icon">
-              <img src="assets/products/Access%20Gate/icon/05.svg" alt="" />
+              <img height="23" width="23" src="assets/products/Access%20Gate/icon/05.svg" alt="" />
             </div>
             <span>05</span>
             <h3>可整合 HyLib、門禁與訪客系統</h3>
@@ -412,7 +431,7 @@
         </div>
         <div class="gallery-lead">
           <figure class="gallery-card gallery-photo">
-            <img
+            <img height="1366" width="2048"
               src="assets/products/Access%20Gate/img/Real01.jpg"
               alt="智慧閘門實際使用情境"
               loading="lazy"
@@ -421,7 +440,7 @@
           </figure>
           <div class="gallery-lead-stack">
             <figure class="gallery-card gallery-render">
-              <img
+              <img height="690" width="1227"
                 src="assets/products/Access%20Gate/img/3D01.jpg"
                 alt="智慧閘門設備圖"
                 loading="lazy"
@@ -429,7 +448,7 @@
               <figcaption>單通道</figcaption>
             </figure>
             <figure class="gallery-card gallery-render">
-              <img
+              <img height="782" width="1392"
                 src="assets/products/Access%20Gate/img/3D04.jpg"
                 alt="智慧閘門設備圖"
                 loading="lazy"
@@ -441,7 +460,7 @@
 
         <div class="gallery-pair gallery-pair-equal">
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="766" width="1362"
               src="assets/products/Access%20Gate/img/3D03.jpg"
               alt="智慧閘門設備圖"
               loading="lazy"
@@ -449,7 +468,7 @@
             <figcaption>單通道</figcaption>
           </figure>
           <figure class="gallery-card gallery-render">
-            <img
+            <img height="716" width="1274"
               src="assets/products/Access%20Gate/img/3D02.jpg"
               alt="智慧閘門設備圖"
               loading="lazy"
@@ -474,7 +493,7 @@
               ><span lang="en">Smart Checkout Gate</span></span
             >
             <figure>
-              <img
+              <img height="940" width="1410"
                 src="assets/products/Smart%20Checkout%20Gate/img/hero-product.png"
                 alt="智慧借閱通關系統產品圖"
                 loading="lazy"
@@ -487,7 +506,7 @@
               ><span lang="en">Self-Service Kiosk</span></span
             >
             <figure>
-              <img
+              <img height="2560" width="1920"
                 src="assets/products/self-service-kiosk/img/hero-product.webp"
                 alt="直立式自助借還書機產品圖"
                 loading="lazy"
@@ -500,8 +519,8 @@
               ><span lang="en">Workstation</span></span
             >
             <figure>
-              <img
-                src="assets/products/Workstation/img/hero-product.png"
+              <img height="1164" width="1351"
+                src="assets/products/Workstation/img/hero-product.optimized.webp"
                 alt="館員工作站產品圖"
                 loading="lazy"
               />
@@ -514,7 +533,7 @@
     <footer class="site-footer">
       <div class="footer-brand">
         <a href="index.html"
-          ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
+          ><img height="106" width="397" src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>
         <p>凌網資訊全新智慧圖書館品牌</p>
