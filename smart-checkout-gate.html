@@ -12,6 +12,7 @@
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/smart-checkout-gate" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="stylesheet" href="css/globals.css" />
@@ -21,41 +22,64 @@
     <script defer src="js/icons.js"></script>
     <script defer src="js/site.js"></script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "智慧借閱通關系統",
-        "alternateName": "Smart Checkout Gate",
-        "brand": {
-          "@type": "Brand",
-          "name": "Lib One"
-        },
-        "description": "雙閘門依序完成讀者身分、館藏與通行狀態確認，搭配畫面與燈號提供即時指引。讀者可在通行過程中完成借閱與離館，流程連續且清楚。",
-        "image": "assets/products/Smart%20Checkout%20Gate/img/hero-product.png",
-        "category": "出入館",
-        "featureList": [
-          "讀者與館藏自動辨識",
-          "借閱與離館一次完成",
-          "可依館藏配置 HF或是UHF RFID、條碼辨識",
-          "雙門互鎖與異常攔截",
-          "無障礙通行與安全感測"
-        ]
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "智慧借閱通關系統",
+  "alternateName": "Smart Checkout Gate",
+  "brand": {
+    "@type": "Brand",
+    "@id": "https://lib-one.com/#brand",
+    "name": "Lib One"
+  },
+  "description": "雙閘門依序完成讀者身分、館藏與通行狀態確認，搭配畫面與燈號提供即時指引。讀者可在通行過程中完成借閱與離館，流程連續且清楚。",
+  "image": "https://lib-one.com/assets/products/Smart%20Checkout%20Gate/img/hero-product.png",
+  "category": "出入館",
+  "@id": "https://lib-one.com/smart-checkout-gate#product",
+  "url": "https://lib-one.com/smart-checkout-gate",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "讀者與館藏自動辨識"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "借閱與離館一次完成"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "可依館藏配置 HF或是UHF RFID、條碼辨識"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "雙門互鎖與異常攔截"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "無障礙通行與安全感測"
+    }
+  ]
+}
     </script>
   </head>
   <body class="product-page" data-product-id="smart-checkout-gate">
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Lib One 首頁">
+      <a class="brand" href="/" aria-label="Lib One 首頁">
         <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
-        <a href="index.html#scene-entry">出入館</a>
-        <a href="index.html#scene-borrow">借還書</a>
-        <a href="index.html#scene-space">空間設備服務</a>
-        <a href="index.html#scene-staff">館務作業</a>
+        <a href="/#scene-entry">出入館</a>
+        <a href="/#scene-borrow">借還書</a>
+        <a href="/#scene-space">空間設備服務</a>
+        <a href="/#scene-staff">館務作業</a>
       </nav>
       <div class="header-actions">
-        <a class="header-contact" href="mailto:service@hyweb.com.tw"
+        <a class="header-contact" href="/contact"
           >服務與聯絡
           <svg
             class="lucide lucide-arrow-up-right"
@@ -131,17 +155,17 @@
         </div>
         <nav class="menu-groups" aria-label="產品分類">
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-entry">
+            <a class="menu-scene-link" href="/#scene-entry">
               <small>01</small><span>出入館</span>
             </a>
             <ul>
               <li>
-                <a href="access-gate.html"
+                <a href="/access-gate"
                   ><span>智慧閘門</span><small>Access Gate</small></a
                 >
               </li>
               <li>
-                <a href="smart-checkout-gate.html" aria-current="page"
+                <a href="/smart-checkout-gate" aria-current="page"
                   ><span>智慧借閱通關系統</span
                   ><small>Smart Checkout Gate</small></a
                 >
@@ -149,30 +173,30 @@
             </ul>
           </div>
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-borrow">
+            <a class="menu-scene-link" href="/#scene-borrow">
               <small>02</small><span>借還書</span>
             </a>
             <ul>
               <li>
-                <a href="self-service-kiosk.html"
+                <a href="/self-service-kiosk"
                   ><span>直立式自助借還書機</span
                   ><small>Self-Service Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="desktop-self-service-kiosk.html"
+                <a href="/desktop-self-service-kiosk"
                   ><span>桌上型自助借還書機</span
                   ><small>Desktop Self-Service Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="smart-reserved-book-pickup-locker.html"
+                <a href="/smart-reserved-book-pickup-locker"
                   ><span>智慧預約取書櫃</span
                   ><small>Smart Reserved Book Pickup Locker</small></a
                 >
               </li>
               <li>
-                <a href="hypass-self-service-registration-kiosk.html"
+                <a href="/hypass-self-service-registration-kiosk"
                   ><span>HyPass 圖書館智慧辦證服務站</span
                   ><small>HyPass Self-Service Registration Kiosk</small></a
                 >
@@ -180,35 +204,35 @@
             </ul>
           </div>
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-space">
+            <a class="menu-scene-link" href="/#scene-space">
               <small>03</small><span>空間設備服務</span>
             </a>
             <ul>
               <li>
-                <a href="space-kiosk.html"
+                <a href="/space-kiosk"
                   ><span>直立式空間座位預約機</span
                   ><small>Space Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="desktop-space-kiosk.html"
+                <a href="/desktop-space-kiosk"
                   ><span>桌上型空間座位預約機</span
                   ><small>Desktop Space Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="display.html"
+                <a href="/display"
                   ><span>電子紙／數位資訊顯示設備</span
                   ><small>Display</small></a
                 >
               </li>
               <li>
-                <a href="hyread-kiosk.html"
+                <a href="/hyread-kiosk"
                   ><span>HyRead 行動圖書館</span><small>HyRead Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="multifunction-device-charging-cabinet.html"
+                <a href="/multifunction-device-charging-cabinet"
                   ><span>多功能設備充電櫃</span
                   ><small>Multifunction Device Charging Cabinet</small></a
                 >
@@ -216,17 +240,17 @@
             </ul>
           </div>
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-staff">
+            <a class="menu-scene-link" href="/#scene-staff">
               <small>04</small><span>館務作業</span>
             </a>
             <ul>
               <li>
-                <a href="workstation.html"
+                <a href="/workstation"
                   ><span>館員工作站</span><small>Workstation</small></a
                 >
               </li>
               <li>
-                <a href="rfid-workstation.html"
+                <a href="/rfid-workstation"
                   ><span>RFID工作站</span><small>RFID Workstation</small></a
                 >
               </li>
@@ -274,6 +298,7 @@
               <span>公共圖書館</span><span>大專校院圖書館</span
               ><span>無人化服務場域</span><span>單向離館通道</span>
             </div>
+            <a class="product-inquiry" data-product-inquiry="smart-checkout-gate" href="/contact?product=smart-checkout-gate#inquiry-title">諮詢此設備 <span aria-hidden="true">↗</span></a>
           </div>
           <figure class="product-hero-visual">
             <img
@@ -482,7 +507,7 @@
           <p lang="en">RELATED PRODUCTS</p>
         </div>
         <div class="related-list">
-          <a href="access-gate.html">
+          <a href="/access-gate">
             <span class="related-copy"
               ><small>出入館</small><strong>智慧閘門</strong
               ><span lang="en">Access Gate</span></span
@@ -495,7 +520,7 @@
               />
             </figure>
           </a>
-          <a href="self-service-kiosk.html">
+          <a href="/self-service-kiosk">
             <span class="related-copy"
               ><small>借還書</small><strong>直立式自助借還書機</strong
               ><span lang="en">Self-Service Kiosk</span></span
@@ -508,7 +533,7 @@
               />
             </figure>
           </a>
-          <a href="workstation.html">
+          <a href="/workstation">
             <span class="related-copy"
               ><small>館務作業</small><strong>館員工作站</strong
               ><span lang="en">Workstation</span></span
@@ -527,7 +552,7 @@
 
     <footer class="site-footer">
       <div class="footer-brand">
-        <a href="index.html"
+        <a href="/"
           ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>

@@ -2,7 +2,7 @@
 (() => {
   const script = document.currentScript;
   const root = new URL('../', script.src);
-  const local = route => new URL(route === '/' ? 'index.html' : route.split('/').filter(Boolean).at(-1) + '.html', root).href;
+  const local = route => new URL(route === '/' ? './' : route.split('/').filter(Boolean).at(-1), root).href;
   const {products, heroScenes} = window.LIB_ONE_DATA;
   const menu = document.querySelector('.menu-layer');
   const trigger = document.querySelector('.menu-button');
@@ -92,10 +92,7 @@
       else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
     });
   }
-  document.querySelectorAll('form').forEach(form => form.addEventListener('submit', event => {
-    event.preventDefault();
-    form.querySelector('[role="status"]').textContent = '目前為評圖預覽，未傳送或保存資料。';
-  }));
+
   const stage = document.querySelector('.lh-stage');
   let closeDetail = () => {};
   document.addEventListener('keydown', event => {

@@ -12,6 +12,7 @@
       name="robots"
       content="index, follow, max-image-preview:large, max-snippet:-1"
     />
+    <link rel="canonical" href="https://lib-one.com/rfid-workstation" />
     <link rel="shortcut icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="icon" href="assets/brand/lib-one-mark.svg" />
     <link rel="stylesheet" href="css/globals.css" />
@@ -21,41 +22,64 @@
     <script defer src="js/icons.js"></script>
     <script defer src="js/site.js"></script>
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "RFID工作站",
-        "alternateName": "RFID Workstation",
-        "brand": {
-          "@type": "Brand",
-          "name": "Lib One"
-        },
-        "description": "RFID 感應板、條碼掃描與流通系統依館員工作順序配置，多本辨識、借還與安全狀態可在同一位置完成。緊湊的桌面配置可減少操作時的手部移動。",
-        "image": "assets/products/RFID%20Workstation/img/hero-product.png",
-        "category": "館務作業",
-        "featureList": [
-          "借還、續借與帳戶作業",
-          "支援 RFID 與條碼辨識",
-          "支援館務相關周邊裝置",
-          "精巧機身減少桌面占用",
-          "模組化設計便於維修"
-        ]
-      }
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "RFID工作站",
+  "alternateName": "RFID Workstation",
+  "brand": {
+    "@type": "Brand",
+    "@id": "https://lib-one.com/#brand",
+    "name": "Lib One"
+  },
+  "description": "RFID 感應板、條碼掃描與流通系統依館員工作順序配置，多本辨識、借還與安全狀態可在同一位置完成。緊湊的桌面配置可減少操作時的手部移動。",
+  "image": "https://lib-one.com/assets/products/RFID%20Workstation/img/hero-product.png",
+  "category": "館務作業",
+  "@id": "https://lib-one.com/rfid-workstation#product",
+  "url": "https://lib-one.com/rfid-workstation",
+  "additionalProperty": [
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "借還、續借與帳戶作業"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "支援 RFID 與條碼辨識"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "支援館務相關周邊裝置"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "精巧機身減少桌面占用"
+    },
+    {
+      "@type": "PropertyValue",
+      "name": "產品特色",
+      "value": "模組化設計便於維修"
+    }
+  ]
+}
     </script>
   </head>
   <body class="product-page" data-product-id="rfid-workstation">
     <header class="site-header">
-      <a class="brand" href="index.html" aria-label="Lib One 首頁">
+      <a class="brand" href="/" aria-label="Lib One 首頁">
         <img src="assets/brand/lib-one-logo.svg" alt="Lib One" />
       </a>
       <nav class="header-nav" aria-label="場域導覽">
-        <a href="index.html#scene-entry">出入館</a>
-        <a href="index.html#scene-borrow">借還書</a>
-        <a href="index.html#scene-space">空間設備服務</a>
-        <a href="index.html#scene-staff">館務作業</a>
+        <a href="/#scene-entry">出入館</a>
+        <a href="/#scene-borrow">借還書</a>
+        <a href="/#scene-space">空間設備服務</a>
+        <a href="/#scene-staff">館務作業</a>
       </nav>
       <div class="header-actions">
-        <a class="header-contact" href="mailto:service@hyweb.com.tw"
+        <a class="header-contact" href="/contact"
           >服務與聯絡
           <svg
             class="lucide lucide-arrow-up-right"
@@ -131,17 +155,17 @@
         </div>
         <nav class="menu-groups" aria-label="產品分類">
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-entry">
+            <a class="menu-scene-link" href="/#scene-entry">
               <small>01</small><span>出入館</span>
             </a>
             <ul>
               <li>
-                <a href="access-gate.html"
+                <a href="/access-gate"
                   ><span>智慧閘門</span><small>Access Gate</small></a
                 >
               </li>
               <li>
-                <a href="smart-checkout-gate.html"
+                <a href="/smart-checkout-gate"
                   ><span>智慧借閱通關系統</span
                   ><small>Smart Checkout Gate</small></a
                 >
@@ -149,30 +173,30 @@
             </ul>
           </div>
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-borrow">
+            <a class="menu-scene-link" href="/#scene-borrow">
               <small>02</small><span>借還書</span>
             </a>
             <ul>
               <li>
-                <a href="self-service-kiosk.html"
+                <a href="/self-service-kiosk"
                   ><span>直立式自助借還書機</span
                   ><small>Self-Service Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="desktop-self-service-kiosk.html"
+                <a href="/desktop-self-service-kiosk"
                   ><span>桌上型自助借還書機</span
                   ><small>Desktop Self-Service Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="smart-reserved-book-pickup-locker.html"
+                <a href="/smart-reserved-book-pickup-locker"
                   ><span>智慧預約取書櫃</span
                   ><small>Smart Reserved Book Pickup Locker</small></a
                 >
               </li>
               <li>
-                <a href="hypass-self-service-registration-kiosk.html"
+                <a href="/hypass-self-service-registration-kiosk"
                   ><span>HyPass 圖書館智慧辦證服務站</span
                   ><small>HyPass Self-Service Registration Kiosk</small></a
                 >
@@ -180,35 +204,35 @@
             </ul>
           </div>
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-space">
+            <a class="menu-scene-link" href="/#scene-space">
               <small>03</small><span>空間設備服務</span>
             </a>
             <ul>
               <li>
-                <a href="space-kiosk.html"
+                <a href="/space-kiosk"
                   ><span>直立式空間座位預約機</span
                   ><small>Space Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="desktop-space-kiosk.html"
+                <a href="/desktop-space-kiosk"
                   ><span>桌上型空間座位預約機</span
                   ><small>Desktop Space Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="display.html"
+                <a href="/display"
                   ><span>電子紙／數位資訊顯示設備</span
                   ><small>Display</small></a
                 >
               </li>
               <li>
-                <a href="hyread-kiosk.html"
+                <a href="/hyread-kiosk"
                   ><span>HyRead 行動圖書館</span><small>HyRead Kiosk</small></a
                 >
               </li>
               <li>
-                <a href="multifunction-device-charging-cabinet.html"
+                <a href="/multifunction-device-charging-cabinet"
                   ><span>多功能設備充電櫃</span
                   ><small>Multifunction Device Charging Cabinet</small></a
                 >
@@ -216,17 +240,17 @@
             </ul>
           </div>
           <div class="menu-group">
-            <a class="menu-scene-link" href="index.html#scene-staff">
+            <a class="menu-scene-link" href="/#scene-staff">
               <small>04</small><span>館務作業</span>
             </a>
             <ul>
               <li>
-                <a href="workstation.html"
+                <a href="/workstation"
                   ><span>館員工作站</span><small>Workstation</small></a
                 >
               </li>
               <li>
-                <a href="rfid-workstation.html" aria-current="page"
+                <a href="/rfid-workstation" aria-current="page"
                   ><span>RFID工作站</span><small>RFID Workstation</small></a
                 >
               </li>
@@ -273,6 +297,7 @@
               ><span>流通櫃台</span><span>館藏加工區</span
               ><span>後台作業空間</span>
             </div>
+            <a class="product-inquiry" data-product-inquiry="rfid-workstation" href="/contact?product=rfid-workstation#inquiry-title">諮詢此設備 <span aria-hidden="true">↗</span></a>
           </div>
           <figure class="product-hero-visual">
             <img
@@ -433,7 +458,7 @@
           <p lang="en">RELATED PRODUCTS</p>
         </div>
         <div class="related-list">
-          <a href="workstation.html">
+          <a href="/workstation">
             <span class="related-copy"
               ><small>館務作業</small><strong>館員工作站</strong
               ><span lang="en">Workstation</span></span
@@ -446,7 +471,7 @@
               />
             </figure>
           </a>
-          <a href="self-service-kiosk.html">
+          <a href="/self-service-kiosk">
             <span class="related-copy"
               ><small>借還書</small><strong>直立式自助借還書機</strong
               ><span lang="en">Self-Service Kiosk</span></span
@@ -459,7 +484,7 @@
               />
             </figure>
           </a>
-          <a href="access-gate.html">
+          <a href="/access-gate">
             <span class="related-copy"
               ><small>出入館</small><strong>智慧閘門</strong
               ><span lang="en">Access Gate</span></span
@@ -474,11 +499,20 @@
           </a>
         </div>
       </section>
+<section class="product-section product-selection" aria-labelledby="selection-title">
+<h2 id="selection-title">如何依櫃台與後台作業選擇工作站？</h2>
+<div class="comparison-scroll" role="region" aria-label="產品配置比較" tabindex="0"><table class="product-comparison"><caption>依現有公開規格比較；實際配置依專案確認。</caption><thead><tr><th scope="col">比較項目</th><th scope="col"><a href="/workstation">館員工作站</a></th><th scope="col"><a href="/rfid-workstation">RFID 工作站</a></th></tr></thead><tbody><tr><th scope="row">主要配置</th><td>雙螢幕整合於機身，館員與讀者可同步查看資訊。</td><td>緊湊的桌面配置，減少作業時的手部移動。</td></tr><tr><th scope="row">適用位置</th><td>流通櫃台、館員服務台。</td><td>流通櫃台、館藏加工區、後台作業空間。</td></tr><tr><th scope="row">公開尺寸</th><td>橫式 L 750 × W 244 × H 399 mm。</td><td>橫式 L 570 × W 197 × H 367 mm。</td></tr><tr><th scope="row">共同作業</th><td>RFID、條碼辨識與借還、續借作業。</td><td>RFID、條碼辨識與借還、續借作業。</td></tr></tbody></table></div>
+</section>
+<section class="product-section product-faq" aria-labelledby="faq-title"><h2 id="faq-title">選型與導入常見問題</h2>
+<details><summary>RFID 工作站只能辨識 RFID 嗎？</summary><p>目前規格同時列有 RFID 與條碼辨識，可搭配 1D／2D 條碼掃描器、MiFare、借閱證讀取器及標籤印表機；實際周邊依專案配置確認。</p></details>
+<details><summary>什麼情況要比較雙螢幕館員工作站？</summary><p>當館員與讀者需要同步查看借閱資訊時，應一併評估雙螢幕館員工作站。若以緊湊桌面或館藏加工區為主要情境，可先評估 RFID 工作站。</p></details>
+<details><summary>如何確認能與現有館務系統搭配？</summary><p>請提供既有流通系統、RFID 標籤及讀寫設備、作業流程與周邊清單，再確認 HyLib／SIP2 或 API 的介接條件，不宜只依外觀決定。</p></details>
+</section>
     </main>
 
     <footer class="site-footer">
       <div class="footer-brand">
-        <a href="index.html"
+        <a href="/"
           ><img src="assets/brand/lib-one-logo2.svg" alt="Lib One"
         /></a>
         <p>One Library · One Platform · One Experience</p>
