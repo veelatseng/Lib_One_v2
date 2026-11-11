@@ -43,23 +43,37 @@
         "@graph": [
           {
             "@type": "Organization",
-            "url": "https://lib-one.com/",
             "@id": "https://lib-one.com/#organization",
-            "name": "Lib One",
-            "alternateName": "凌網資訊智慧圖書館品牌",
+            "name": "凌網資訊股份有限公司",
             "legalName": "凌網資訊股份有限公司",
+            "url": "https://lib-one.com/",
             "email": "service@hyweb.com.tw",
             "telephone": "+886-3-560-1296",
+            "brand": {
+              "@id": "https://lib-one.com/#brand"
+            }
+          },
+          {
+            "@type": "Brand",
+            "@id": "https://lib-one.com/#brand",
+            "name": "Lib One",
+            "description": "凌網資訊股份有限公司的智慧圖書館品牌",
+            "url": "https://lib-one.com/",
             "logo": "https://lib-one.com/assets/brand/lib-one-logo.svg"
           },
           {
             "@type": "WebSite",
-            "url": "https://lib-one.com/",
             "@id": "https://lib-one.com/#website",
             "name": "Lib One 智慧圖書館設備旅程",
-            "description": "涵蓋出入館、借還書、空間設備服務與館務作業的智慧圖書館設備與整合服務。",
+            "url": "https://lib-one.com/",
             "inLanguage": "zh-Hant",
-            "publisher": { "@id": "https://lib-one.com/#organization" }
+            "publisher": {
+              "@id": "https://lib-one.com/#organization"
+            },
+            "about": {
+              "@id": "https://lib-one.com/#brand"
+            },
+            "description": "涵蓋出入館、借還書、空間設備服務與館務作業的智慧圖書館設備與整合服務。"
           }
         ]
       }
@@ -77,7 +91,7 @@
         <a href="index.html#scene-staff">館務作業</a>
       </nav>
       <div class="header-actions">
-        <a class="header-contact" href="mailto:service@hyweb.com.tw"
+        <a class="header-contact" href="contact.html#inquiry-title"
           >服務與聯絡
           <svg
             class="lucide lucide-arrow-up-right"
@@ -1272,7 +1286,7 @@
       <section class="site-section site-contact">
         <h2>與我們聯繫</h2>
         <p class="eyebrow" lang="en">START A PROJECT</p>
-        <a class="solid-button" href="mailto:service@hyweb.com.tw"
+        <a class="solid-button" href="contact.html#inquiry-title"
           >專人諮詢
           <svg
             class="lucide lucide-arrow-up-right"
@@ -1318,7 +1332,7 @@
           <img height="106" width="397" src="assets/brand/lib-one-logo2.svg" alt="Lib One" />
         </a>
         <p>One Library · One Platform · One Experience</p>
-        <p>凌網資訊全新智慧圖書館品牌</p>
+        <p>Lib One 是凌網資訊股份有限公司的智慧圖書館品牌。</p>
       </div>
       <div>
         <b>凌網資訊股份有限公司 Hyweb System Services co. ltd.</b>

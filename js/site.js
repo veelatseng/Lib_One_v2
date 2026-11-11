@@ -92,10 +92,6 @@
       else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first.focus(); }
     });
   }
-  document.querySelectorAll('form').forEach(form => form.addEventListener('submit', event => {
-    event.preventDefault();
-    form.querySelector('[role="status"]').textContent = '目前為評圖預覽，未傳送或保存資料。';
-  }));
   const stage = document.querySelector('.lh-stage');
   let closeDetail = () => {};
   document.addEventListener('keydown', event => {
